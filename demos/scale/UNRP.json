@@ -1528,9 +1528,7 @@
         },
         "datagrid": {
             "enable": true,
-
             "layers": [
-
                 {
                     "layerinfo": {
                         "id": "9c7c5ca0-bb76-fda0-ed57-3adf433b2489",
@@ -1821,11 +1819,6 @@
                         "width": "120px",
                         "data": "INUIT",
                         "datapop": "INUIT"
-                    }, {
-                        "title": "Aboriginal Population (%)",
-                        "width": "120px",
-                        "data": "PCCTotAbo",
-                        "datapop": "PCCTotAbo"
                     }],
                     "linktable": {
                         "enable": false
