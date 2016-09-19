@@ -1,1 +1,2505 @@
-{"gcviz":{"mapframe":{"size":{"height":550,"width":1200},"map":{"urlgeomserv":"http://geoappext.nrcan.gc.ca/arcgis/rest/services/Utilities/Geometry/GeometryServer","urlproxy":"http://geoappext.nrcan.gc.ca/php/proxy.ashx","urldownload":"http://geoappext.nrcan.gc.ca/php/download.php","urlsaveimage":"http://geoappext.nrcan.gc.ca/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task","sr":{"wkid":102100},"extentmax":{"xmin":-22463925.36867,"ymin":993732.83539,"xmax":1017529.72053,"ymax":13091248.30409},"extentinit":{"xmin":-22463925.36867,"ymin":993732.83539,"xmax":1017529.72053,"ymax":13091248.30409},"lods":{"enable":true,"values":[{"level":1,"resolution":156543.03392800014,"scale":591657527.591555,"check":false},{"level":2,"resolution":78271.51696399994,"scale":295828763.795777,"check":false},{"level":3,"resolution":39135.75848200009,"scale":147914381.897889,"check":false},{"level":4,"resolution":19567.87924099992,"scale":73957190.948944,"check":true},{"level":5,"resolution":9783.93962049996,"scale":36978595.474472,"check":true},{"level":6,"resolution":4891.96981024998,"scale":18489297.737236,"check":true},{"level":7,"resolution":2445.98490512499,"scale":9244648.868618,"check":true},{"level":8,"resolution":1222.992452562495,"scale":4622324.434309,"check":true},{"level":9,"resolution":611.4962262813797,"scale":2311162.217155,"check":true},{"level":10,"resolution":305.74811314055756,"scale":1155581.108577,"check":true},{"level":11,"resolution":152.87405657041106,"scale":577790.554289,"check":true},{"level":12,"resolution":76.43702828507324,"scale":288895.277144,"check":true},{"level":13,"resolution":38.21851414253662,"scale":144447.638572,"check":true},{"level":14,"resolution":19.10925707126831,"scale":72223.819286,"check":true},{"level":15,"resolution":9.554628535634155,"scale":36111.909643,"check":true},{"level":16,"resolution":4.77731426794937,"scale":18055.954822,"check":true},{"level":17,"resolution":2.388657133974685,"scale":9027.977411,"check":true},{"level":18,"resolution":2.388657133974685,"scale":9027.977411,"check":true},{"level":19,"resolution":0.5971642835598172,"scale":2256.994353,"check":true},{"level":20,"resolution":0.29858214164761665,"scale":1128.497176,"check":true}]},"link":false,"zoombar":{"bar":true,"zoom":true,"zoomfull":true,"previousnext":true},"bases":[{"label":"worldtopo","id":"cc77bc0a-8480-1a52-2740-55b581f40616","type":2,"url":"http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer","scale":{"min":0,"max":0},"legend":1},{"label":"worldimagery","id":"cc77bc0a-8480-1a52-2740-55b581f40617","type":2,"url":"http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer","scale":{"min":0,"max":0},"legend":1},{"label":"worldterrain","id":"cc77bc0a-8480-1a52-2740-55b581f40618","type":2,"url":"http://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer","scale":{"min":0,"max":0},"legend":1},{"label":"worldstreet","id":"cc77bc0a-8480-1a52-2740-55b581f40619","type":2,"url":"http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer","scale":{"min":0,"max":0},"legend":1},{"label":"worldshaded","id":"cc77bc0a-8480-1a52-2740-55b581f40620","type":2,"url":"http://services.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer","scale":{"min":0,"max":0},"legend":1},{"label":"worldphysical","id":"cc77bc0a-8480-1a52-2740-55b581f40621","type":2,"url":"http://services.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer","scale":{"min":0,"max":0},"legend":1}],"layers":[{"label":"energy_infrastructure_of_north_america_fr","id":"0482e936-9d1b-77cc-e4d7-663a499ad15e","type":4,"url":"http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/","beforebase":false,"visiblelayers":[0],"scale":{"min":0,"max":0},"usecluster":false,"cluster":{"enable":false,"distance":50,"label":false,"symbol":false,"maxsizeprop":50,"maxdataprop":1000},"legend":1},{"label":"energy_infrastructure_of_north_america_fr","id":"4f1f5efd-7979-9fc9-5dc2-cf0676c7a398","type":4,"url":"http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/","beforebase":false,"visiblelayers":[1],"scale":{"min":0,"max":0},"usecluster":false,"cluster":{"enable":false,"distance":50,"label":false,"symbol":false,"maxsizeprop":50,"maxdataprop":1000},"legend":1},{"label":"energy_infrastructure_of_north_america_fr","id":"74d96f14-bb72-127e-d721-b457a9bff21d","type":4,"url":"http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/","beforebase":false,"visiblelayers":[2],"scale":{"min":0,"max":0},"usecluster":false,"cluster":{"enable":false,"distance":50,"label":false,"symbol":false,"maxsizeprop":50,"maxdataprop":1000},"legend":1},{"label":"energy_infrastructure_of_north_america_fr","id":"474f413e-5bc6-1680-a6b2-5f4e65bb03af","type":4,"url":"http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/","beforebase":false,"visiblelayers":[7],"scale":{"min":0,"max":0},"usecluster":false,"cluster":{"enable":false,"distance":50,"label":false,"symbol":false,"maxsizeprop":50,"maxdataprop":1000},"legend":1},{"label":"energy_infrastructure_of_north_america_fr","id":"76aa008e-9d55-43d4-f92b-1244fdc2e427","type":4,"url":"http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/","beforebase":false,"visiblelayers":[20],"scale":{"min":0,"max":0},"usecluster":false,"cluster":{"enable":false,"distance":50,"label":false,"symbol":false,"maxsizeprop":50,"maxdataprop":1000},"legend":1}]}},"header":{"side":1,"title":{"value":"Infrastructure énergétique d'Amérique du Nord","alttext":"Infrastructure énergétique d'Amérique du Nord"},"tools":{"enable":true,"expand":true},"link":false,"inset":false,"about":{"enable":true,"type":1,"value":"Infrastructure énergétique d'Amérique du Nord liées aux raffineries, terminaux méthaniers d’import et d’export de gaz naturel liquéfié, usines de traitement du gaz naturel, centrales électriques d’une capacité minimale de 100 MW, centrales électriques à énergie renouvelable d’une capacité minimale de 1 MW. <br/>\r\nServices web implantés dans le cadre d’une coopération trilatérale en matière d’information sur l’énergie entre le département de l’Énergie des États Unis d’Amérique, le ministère des Ressources naturelles du Canada et le ministère de l’Énergie des États Unis du Mexique. <br/>\r\nLes agences et institutions participantes ne peuvent être tenues responsable de l'utilisation inappropriée ou incorrecte des données décrites et /ou contenues dans les présentes. Ces données n'ont pas de teneurs légales et ne sont pas destinées à être utilisées en tant que tels. L'information contenue dans ces données est dynamique et peut changer au fil du temps et peut différer d'autres informations officielles. Les agences et institutions participantes ne donnent aucune garantie, expresse ou implicite, quant à l'exactitude, la fiabilité, ou l'exhaustivité de ces données. <br/>\r\nLe visualisateur de cartes dynamiques permet la recherche de noms de localité, de zoomer ou panoramiquer, de mesurer des distances, d'obtenir des coordonnées et plus encore."},"print":{"enable":true,"type":3},"saveimage":{"enable":true},"saveurl":{"enable":true},"fullscreen":true},"footer":{"northarrow":{"enable":true,"inwkid":3857},"mousecoords":{"enable":true,"outwkid":4326},"scalebar":{"enable":true,"unit":1},"datagrid":{"enable":true}},"datagrid":{"enable":true,"expand":true,"layers":[{"layerinfo":{"id":"0482e936-9d1b-77cc-e4d7-663a499ad15e","type":4,"index":0},"title":"Usines de traitement du gaz naturel","globalsearch":false,"fields":[{"enable":true,"title":"Capacité (km³/j)","width":"100px","data":"Capa_Km3d","dataalias":"Capacité (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Période de référence","width":"100px","data":"Period","dataalias":"Période référence","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Source","width":"100px","data":"Source","dataalias":"Source","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Capacité (Mpi³/j)","width":"100px","data":"Capa_MMcfd","dataalias":"Capacité (Mpi³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Adresse","width":"100px","data":"Address","dataalias":"Adresse","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Code postal","width":"100px","data":"ZipCode","dataalias":"Code postal","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"État / Province / Territoire","width":"100px","data":"StateProv","dataalias":"État / Province / Territoire","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Comté","width":"100px","data":"County","dataalias":"Comté","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Ville (Nom du site)","width":"100px","data":"City","dataalias":"Ville (Nom du site)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Longitude","width":"100px","data":"Longitude","dataalias":"Longitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Latitude","width":"100px","data":"Latitude","dataalias":"Latitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Nom de l'opérateur","width":"100px","data":"Operator","dataalias":"Nom de l'opérateur","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Nom du propriétaire (Compagnie)","width":"100px","data":"Owner","dataalias":"Nom du propriétaire (Compagnie)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Nom de l'installation","width":"100px","data":"Facility","dataalias":"Nom de l'installation","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Pays","width":"100px","data":"Country","dataalias":"Pays","searchable":true,"description":"","fieldtype":{"type":1,"value":4}},{"enable":false,"title":"SHAPE","width":"","data":"SHAPE","dataalias":"SHAPE","searchable":false,"description":"","fieldtype":{"type":1,"value":1}},{"enable":false,"title":"OBJECTID","width":"","data":"OBJECTID","dataalias":"OBJECTID","searchable":false,"description":"","fieldtype":{"type":1,"value":1}}],"linktable":{"enable":false,"relationshipid":0,"title":"","subtitle":"","fields":[]},"popups":{"enable":true,"layeralias":"Usines de traitement du gaz naturel"},"hover":{"enable":false,"hoverfield":""}},{"layerinfo":{"id":"4f1f5efd-7979-9fc9-5dc2-cf0676c7a398","type":4,"index":1},"title":"Terminaux méthaniers","globalsearch":false,"fields":[{"enable":true,"title":"Capacité de stockage (Mm³)","width":"100px","data":"Stora_Mm3","dataalias":"Capacité de stockage (Mm³)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Capacité de regazéification (MMt/a)","width":"100px","data":"Cap_Mtpa","dataalias":"Capacité de regazéification (MMt/a)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Période de référence","width":"100px","data":"Period","dataalias":"Période de référence","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Source","width":"100px","data":"Source","dataalias":"Source","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Capacité de stockage (Mpi³)","width":"100px","data":"Stora_MMcf","dataalias":"Capacité de stockage (Mpi³)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Capacité de regazéification (Gpi³/j)","width":"100px","data":"Cap_Bcfd","dataalias":"Capacité de regazéification (Gpi³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Import / Export","width":"100px","data":"ImpExp","dataalias":"Import / Export","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Adresse","width":"100px","data":"Address","dataalias":"Adresse","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Code postal","width":"100px","data":"ZipCode","dataalias":"Code postal","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"État / Province / Territoire","width":"100px","data":"StateProv","dataalias":"État / Province / Territoire","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Comté","width":"100px","data":"County","dataalias":"Comté","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Ville (Nom du site)","width":"100px","data":"City","dataalias":"Ville (Nom du site)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Longitude","width":"100px","data":"Longitude","dataalias":"Longitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Latitude","width":"100px","data":"Latitude","dataalias":"Latitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Nom de l'opérateur","width":"100px","data":"Operator","dataalias":"Nom de l'opérateur","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Nom du propriétaire (Compagnie)","width":"100px","data":"Owner","dataalias":"Nom du propriétaire (Compagnie)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Nom du terminal","width":"100px","data":"Facility","dataalias":"Nom du terminal","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Pays","width":"100px","data":"Country","dataalias":"Pays","searchable":true,"description":"","fieldtype":{"type":1,"value":4}},{"enable":false,"title":"SHAPE","width":"","data":"SHAPE","dataalias":"SHAPE","searchable":false,"description":"","fieldtype":{"type":1,"value":1}},{"enable":false,"title":"OBJECTID","width":"","data":"OBJECTID","dataalias":"OBJECTID","searchable":false,"description":"","fieldtype":{"type":1,"value":1}}],"linktable":{"enable":false,"relationshipid":0,"title":"","subtitle":"","fields":[]},"popups":{"enable":true,"layeralias":"Terminaux méthaniers"},"hover":{"enable":false,"hoverfield":""}},{"layerinfo":{"id":"74d96f14-bb72-127e-d721-b457a9bff21d","type":4,"index":2},"title":"Raffineries","globalsearch":false,"fields":[{"enable":true,"title":"Production d'asphalte (km³/j)","width":"100px","data":"Asph_Km3d","dataalias":"Production d'asphalte (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Cokéfaction (km³/j)","width":"100px","data":"Cokin_Km3d","dataalias":"Cokéfaction (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Hydrodésulfuration (km³/j)","width":"100px","data":"HDS_Km3d","dataalias":"Hydrodésulfuration (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Alkylation et isomérisation (km³/j)","width":"100px","data":"Isal_Km3d","dataalias":"Alkylation et isomérisation (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Reformage catalytique (km³/j)","width":"100px","data":"CaRef_Km3d","dataalias":"Reformage catalytique (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Viscoréduction (km³/j)","width":"100px","data":"VRedu_Km3d","dataalias":"Viscoréduction (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Destruction catalytique (km³/j)","width":"100px","data":"CaDis_Km3d","dataalias":"Destruction catalytique (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Distillation sous vide (km³/j)","width":"100px","data":"VDist_Km3d","dataalias":"Distillation sous vide (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Distillation atmosphérique (km³/j)","width":"100px","data":"AD_Km3d","dataalias":"Distillation atmosphérique (km³/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Période de référence","width":"100px","data":"Period","dataalias":"Période de référence","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Source","width":"100px","data":"Source","dataalias":"Source","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Production d'asphalte (kb/j)","width":"100px","data":"Asph_Mbpd","dataalias":"Production d'asphalte (kb/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Cokéfaction (kb/j)","width":"100px","data":"Cokin_Mbpd","dataalias":"Cokéfaction (kb/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Hydrodésulfuration (kb/j)","width":"100px","data":"HDS_Mbpd","dataalias":"Hydrodésulfuration (kb/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Alkylation et isomérisation (kb/j)","width":"100px","data":"Isal_Mbpd","dataalias":"Alkylation et isomérisation (kb/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Reformage catalytique (kb/j)","width":"100px","data":"CaRef_Mbpd","dataalias":"Reformage catalytique (kb/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Viscoréduction (kb/j)","width":"100px","data":"VRedu_Mbpd","dataalias":"Viscoréduction (kb/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Destruction catalytique (kb/j)","width":"100px","data":"CaDis_Mbpd","dataalias":"Destruction catalytique (kb/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Distillation sous vide (kb/j)","width":"100px","data":"VDist_Mbpd","dataalias":"Distillation sous vide (kb/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Distillation atmosphérique (kb/j)","width":"100px","data":"AD_Mbpd","dataalias":"Distillation atmosphérique (kb/j)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Type","width":"100px","data":"Type","dataalias":"Type","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Adresse","width":"100px","data":"Address","dataalias":"Adresse","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Code postal","width":"100px","data":"ZipCode","dataalias":"Code postal","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"État / Province / Territoire","width":"100px","data":"StateProv","dataalias":"État / Province / Territoire","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Comté","width":"100px","data":"County","dataalias":"Comté","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Ville (Nom du site)","width":"100px","data":"City","dataalias":"Ville (Nom du site)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Longitude","width":"100px","data":"Longitude","dataalias":"Longitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Latitude","width":"100px","data":"Latitude","dataalias":"Latitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Nom du propriétaire (Compagnie)","width":"100px","data":"Owner","dataalias":"Nom du propriétaire (Compagnie)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Nom de l'installation","width":"100px","data":"Facility","dataalias":"Nom de l'installation","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Pays","width":"100px","data":"Country","dataalias":"Pays","searchable":true,"description":"","fieldtype":{"type":1,"value":4}},{"enable":false,"title":"SHAPE","width":"","data":"SHAPE","dataalias":"SHAPE","searchable":false,"description":"","fieldtype":{"type":1,"value":1}},{"enable":false,"title":"OBJECTID","width":"","data":"OBJECTID","dataalias":"OBJECTID","searchable":false,"description":"","fieldtype":{"type":1,"value":1}}],"linktable":{"enable":false,"relationshipid":0,"title":"","subtitle":"","fields":[]},"popups":{"enable":true,"layeralias":"Raffineries"},"hover":{"enable":false,"hoverfield":""}},{"layerinfo":{"id":"474f413e-5bc6-1680-a6b2-5f4e65bb03af","type":4,"index":7},"title":"Centrales électriques, 100 MW et plus","globalsearch":false,"fields":[{"enable":true,"title":"Période de référence","width":"100px","data":"Period","dataalias":"Période de référence","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Source","width":"100px","data":"Source","dataalias":"Source","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Biomasse (MW)","width":"100px","data":"Bio_MW","dataalias":"Biomasse (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Géothermie (MW)","width":"100px","data":"Geo_MW","dataalias":"Géothermie (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Éolien (MW)","width":"100px","data":"Wind_MW","dataalias":"Éolien (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Solaire (MW)","width":"100px","data":"Solar_MW","dataalias":"Solaire (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Nucléaire (MW)","width":"100px","data":"Nuclear_MW","dataalias":"Nucléaire (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Pompage-turbinage hydroélectrique (MW)","width":"100px","data":"HydroPS_MW","dataalias":"Pompage-turbinage hydroélectrique (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Hydroélectrique (MW)","width":"100px","data":"Hydro_MW","dataalias":"Hydroélectrique (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Autre (MW)","width":"100px","data":"Other_MW","dataalias":"Autre (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Pétrole (MW)","width":"100px","data":"Crude_MW","dataalias":"Pétrole (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Gaz naturel (MW)","width":"100px","data":"NG_MW","dataalias":"Gaz naturel (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Charbon (MW)","width":"100px","data":"Coal_MW","dataalias":"Charbon (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Source primaire d'énergie renouvelable","width":"100px","data":"PrimRenew","dataalias":"Source primaire d'énergie renouvelable","searchable":true,"description":"","fieldtype":{"type":1,"value":4}},{"enable":true,"title":"Source primaire d'énergie","width":"100px","data":"PrimSource","dataalias":"Source primaire d'énergie","searchable":true,"description":"","fieldtype":{"type":1,"value":4}},{"enable":true,"title":"Capacité totale, énergie renouvelable (MW)","width":"100px","data":"Renew_MW","dataalias":"Capacité totale, énergie renouvelable (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Capacité totale (MW)","width":"100px","data":"Total_MW","dataalias":"Capacité totale (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Adresse","width":"100px","data":"Address","dataalias":"Adresse","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Code postal","width":"100px","data":"ZipCode","dataalias":"Code postal","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"État / Province / Territoire","width":"100px","data":"StateProv","dataalias":"État / Province / Territoire","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Comté","width":"100px","data":"County","dataalias":"Comté","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Ville (Nom du site)","width":"100px","data":"City","dataalias":"Ville (Nom du site)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Longitude","width":"100px","data":"Longitude","dataalias":"Longitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Latitude","width":"100px","data":"Latitude","dataalias":"Latitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Nom de l'opérateur","width":"100px","data":"Operator","dataalias":"Nom de l'opérateur","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Nom du propriétaire (Compagnie)","width":"100px","data":"Owner","dataalias":"Nom du propriétaire (Compagnie)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Nom de l'installation","width":"100px","data":"Facility","dataalias":"Nom de l'installation","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Pays","width":"100px","data":"Country","dataalias":"Pays","searchable":true,"description":"","fieldtype":{"type":1,"value":4}},{"enable":false,"title":"SHAPE","width":"","data":"SHAPE","dataalias":"SHAPE","searchable":false,"description":"","fieldtype":{"type":1,"value":1}},{"enable":false,"title":"OBJECTID","width":"","data":"OBJECTID","dataalias":"OBJECTID","searchable":false,"description":"","fieldtype":{"type":1,"value":1}}],"linktable":{"enable":false,"relationshipid":0,"title":"","subtitle":"","fields":[]},"popups":{"enable":true,"layeralias":"Centrales électriques, 100 MW et plus"},"hover":{"enable":false,"hoverfield":""}},{"layerinfo":{"id":"76aa008e-9d55-43d4-f92b-1244fdc2e427","type":4,"index":20},"title":"Centrales électriques à énergie renouvelable, 1 MW et plus","globalsearch":false,"fields":[{"enable":true,"title":"Période de référence","width":"100px","data":"Period","dataalias":"Période de référence","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Source","width":"100px","data":"Source","dataalias":"Source","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Biomasse (MW)","width":"100px","data":"Bio_MW","dataalias":"Biomasse (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Géothermie (MW)","width":"100px","data":"Geo_MW","dataalias":"Géothermie (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Éolien (MW)","width":"100px","data":"Wind_MW","dataalias":"Éolien (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Solaire (MW)","width":"100px","data":"Solar_MW","dataalias":"Solaire (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Nucléaire (MW)","width":"100px","data":"Nuclear_MW","dataalias":"Nucléaire (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Pompage-turbinage hydroélectrique (MW)","width":"100px","data":"HydroPS_MW","dataalias":"Pompage-turbinage hydroélectrique (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Hydroélectrique (MW)","width":"100px","data":"Hydro_MW","dataalias":"Hydroélectrique (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":false,"title":"Autre (MW)","width":"100px","data":"Other_MW","dataalias":"Autre (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Pétrole (MW)","width":"100px","data":"Crude_MW","dataalias":"Pétrole (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Gaz naturel (MW)","width":"100px","data":"NG_MW","dataalias":"Gaz naturel (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Charbon (MW)","width":"100px","data":"Coal_MW","dataalias":"Charbon (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Source primaire d'énergie renouvelable","width":"100px","data":"PrimRenew","dataalias":"Source primaire d'énergie renouvelable","searchable":true,"description":"","fieldtype":{"type":1,"value":4}},{"enable":true,"title":"Source primaire d'énergie","width":"100px","data":"PrimSource","dataalias":"Source primaire d'énergie","searchable":true,"description":"","fieldtype":{"type":1,"value":4}},{"enable":true,"title":"Capacité totale, énergie renouvelable (MW)","width":"100px","data":"Renew_MW","dataalias":"Capacité totale, énergie renouvelable (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Capacité totale (MW)","width":"100px","data":"Total_MW","dataalias":"Capacité totale (MW)","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Adresse","width":"100px","data":"Address","dataalias":"Adresse","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Code postal","width":"100px","data":"ZipCode","dataalias":"Code postal","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"État / Province / Territoire","width":"100px","data":"StateProv","dataalias":"État / Province / Territoire","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Comté","width":"100px","data":"County","dataalias":"Comté","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Ville (Nom du site)","width":"100px","data":"City","dataalias":"Ville (Nom du site)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Longitude","width":"100px","data":"Longitude","dataalias":"Longitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Latitude","width":"100px","data":"Latitude","dataalias":"Latitude","searchable":true,"description":"","fieldtype":{"type":1,"value":2}},{"enable":true,"title":"Nom de l'opérateur","width":"100px","data":"Operator","dataalias":"Nom de l'opérateur","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Nom du propriétaire (Compagnie)","width":"100px","data":"Owner","dataalias":"Nom du propriétaire (Compagnie)","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Nom de l'installation","width":"100px","data":"Facility","dataalias":"Nom de l'installation","searchable":true,"description":"","fieldtype":{"type":1,"value":1}},{"enable":true,"title":"Pays","width":"100px","data":"Country","dataalias":"Pays","searchable":true,"description":"","fieldtype":{"type":1,"value":4}},{"enable":false,"title":"SHAPE","width":"","data":"SHAPE","dataalias":"SHAPE","searchable":false,"description":"","fieldtype":{"type":1,"value":1}},{"enable":false,"title":"OBJECTID","width":"","data":"OBJECTID","dataalias":"OBJECTID","searchable":false,"description":"","fieldtype":{"type":1,"value":1}}],"linktable":{"enable":false,"relationshipid":0,"title":"","subtitle":"","fields":[]},"popups":{"enable":true,"layeralias":"Centrales électriques à énergie renouvelable, 1 MW et plus"},"hover":{"enable":false,"hoverfield":""}}]},"toolbarlegend":{"enable":true,"expand":true,"pos":1,"basemaps":[{"expand":false,"last":true,"type":2,"id":"cc77bc0a-8480-1a52-2740-55b581f40616","graphid":"6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f992","displayfields":false,"label":{"value":"Carte de base du monde","alttext":"Carte de base du monde"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":true,"type":2,"radioid":0},"displaychild":{"enable":false,"symbol":"{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"},"customimage":{"enable":false,"images":[]},"items":[]},{"expand":false,"last":true,"type":1,"id":"cc77bc0a-8480-1a52-2740-55b581f40617","graphid":"6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f993","displayfields":false,"label":{"value":"Imageries du monde","alttext":"Imageries du monde"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":false,"type":2,"radioid":0},"displaychild":{"enable":false,"symbol":"{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"},"customimage":{"enable":false,"images":[]},"items":[]},{"expand":false,"last":true,"type":1,"id":"cc77bc0a-8480-1a52-2740-55b581f40618","graphid":"6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f994","displayfields":false,"label":{"value":"Carte terrain du monde","alttext":"Carte terrain du monde"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":false,"type":2,"radioid":0},"displaychild":{"enable":false,"symbol":"{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"},"customimage":{"enable":false,"images":[]},"items":[]},{"expand":false,"last":true,"type":1,"id":"cc77bc0a-8480-1a52-2740-55b581f40619","graphid":"6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f995","displayfields":false,"label":{"value":"Carte des rues du monde","alttext":"Carte des rues du monde"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":false,"type":2,"radioid":0},"displaychild":{"enable":false,"symbol":"{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"},"customimage":{"enable":false,"images":[]},"items":[]},{"expand":false,"last":true,"type":1,"id":"cc77bc0a-8480-1a52-2740-55b581f40620","graphid":"6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f996","displayfields":false,"label":{"value":"Carte relief ombré du monde","alttext":"Carte relief ombré du monde"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":false,"type":2,"radioid":0},"displaychild":{"enable":false,"symbol":"{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"},"customimage":{"enable":false,"images":[]},"items":[]},{"expand":false,"last":true,"type":1,"id":"cc77bc0a-8480-1a52-2740-55b581f40621","graphid":"6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f997","displayfields":false,"label":{"value":"Carte physique du monde","alttext":"Carte physique du monde"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":false,"type":2,"radioid":0},"displaychild":{"enable":false,"symbol":"{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"},"customimage":{"enable":false,"images":[]},"items":[]}],"items":[{"expand":false,"last":true,"type":5,"id":"0482e936-9d1b-77cc-e4d7-663a499ad15e","graphid":"317385aa-f14a-85f0-f766-3ad67435cd54","displayfields":false,"label":{"value":"Usines de traitement du gaz naturel","alttext":"Usines de traitement du gaz naturel"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":true,"type":1,"radioid":0},"displaychild":{"enable":true,"symbol":"{\"type\":\"uniqueValue\",\"field1\":\"Country\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"32d0e043fa9f4c2c5157003372b65493\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAYdJREFUOI2tz88rgwEcx/H38yNj+fG0+ZEaQ7bldy7kggtHpVx2kH/ChYNSyMXBkZPi4CAHBzVF5CBECUnEnpIxzIxmD/bMQe208Wz2uX2/fXr1/cpkMDLA5NJ6v5KfO5Yu4n8KjY+4u2ZlAFmSagsLlfJ0sefgW338MkOJwf1DgJJiS9KKYWx774Rqe+mvHUPY6bnK9O4FC42O/2G3vkcm1g4BiGgfZOeY0sMCgRBTKztosZ9ZvfGjKHmpY5F3jZmVHVTtK75bO7ikvqYSSRJTw7b3zzgIhbGb5Di4+xLmSr3FUWUzjkXeNeaOrjFJAsN97SxvHOLxBQHYO1VTwx4CL2gxGHDZsFoL6OlowrO4BcCq1487qiMmeDUhpus6AHfPr+h6jJJiCy5zFufhDyySCIJg/LIiqwKCgMcXpPXMS43Thlf7BMDd4kQUU8DM5mxGu5uZ3zwmGo1y7b2jvSiftroKGmorE0JJMYA6l51Jlz0+Ox1lSZE/sXQiAwz2dg4BQxnBMpVvEiaAPElRC+YAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Usines de traitement du gaz naturel\",\"label\":\"Usines de traitement du gaz naturel\",\"description\":\"\"}]}"},"customimage":{"enable":false,"images":[]},"items":[]},{"expand":false,"last":true,"type":5,"id":"4f1f5efd-7979-9fc9-5dc2-cf0676c7a398","graphid":"b0d698a4-9fec-4f17-700e-b68a2603ab37","displayfields":false,"label":{"value":"Terminaux méthaniers","alttext":"Terminaux méthaniers"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":true,"type":1,"radioid":0},"displaychild":{"enable":true,"symbol":"{\"type\":\"uniqueValue\",\"field1\":\"Country\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"f82a907f51d5f4efd9c113ac287f3151\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAYAAACORR0GAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAsdJREFUOI2902tIU2EYB/D/2eZuTqfprMGcmReMimhZkNIUsiJaBX2LIsKEyELqSxRBRGAGUYRZ2LDAfSlciaRhYjmXSBJqC93SbekUnTbNnV3cRbedPoh61MxL2vPpff7wvD/eh3NY+E/FWulAzdeRTMUuUfO6QkX1ltjyToemvmNUeXBH7OV1gxBk1Kldk2HQkfntvY4XskRh+5pDZdrB3Dy9UwYAatckkWF2vqcoahNBEKE1gwrUFoF20PuUnl01uUWpolEVgDNrBkmFzHfFZi+HnokZBEp09tOtPY6y9C3Cxn+GyrTWk9cMTjk9uyXlISEyDOc7nZAbHVUURYkIgphcPaTUs1uGvaoxipqJ8mLYuJ4jwYVKCwDgRs+4MK3NVgng2KqhR4mRb66Y3OHT/WE+E/eOSMDjMCEVsABy6hEPv5GKz0by+L7UqLcrhp5rrQeKupyK6T6ZSUB5VIKYCDYA4FByJAoHvACAJn8ItUbHyyG3WyQWCDzLh5R6ZvuI77U5OLuy0oxYSGN5M/3eZCGyW0bQ6Jv6uu/0e/jbDJxaAFnLhoqThKqCblfUdJ/NZWB/WjRGnX4Yh73ISI0CN4yB/O1CNLbaZ+aKdA55s9F+NjM1WrUkVKqx7ik1uU7RM4WEDzaLgY9dJJQGB6oTIsDnMJEi4gGYhXSBEKoMpLLf5quWxnHt9DvmQRRhJi01ukCIoKcTwan1yOIFaGiz4yfpR+JGPkhPYME27lt9nJ1m+wcAuxeFnjQMllzq8sXNH37W70Uu6UOKOBy3pXzEi7iw2Dy4++XXAggAbnY4ZJ++jxXIt24oXgA91gykveoZv/inwb4ghSx1H3Ki2agZm0BvRS/K7Yv/n31BChV68sGPIY86ScwfmgMNOwN1Tf65K6NXd4BC94gfAP6KTFeJzc9KN5EaAGlzoMITmxOWnF5hnaOdfwNE1xkDQ5SMgAAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Terminaux méthaniers\",\"label\":\"Terminaux méthaniers\",\"description\":\"\"}]}"},"customimage":{"enable":false,"images":[]},"items":[]},{"expand":false,"last":true,"type":5,"id":"74d96f14-bb72-127e-d721-b457a9bff21d","graphid":"461e9087-5f59-97f4-6188-e49b32ab494a","displayfields":false,"label":{"value":"Raffineries","alttext":"Raffineries"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":true,"type":1,"radioid":0},"displaychild":{"enable":true,"symbol":"{\"type\":\"uniqueValue\",\"field1\":\"Type\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"09e0a472eb36bb827ba86faeb280e811\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAW9JREFUOI2t0b0vA2EcwPHvPXe99lJ6XOutUcRbKAmbwcDuD7AaDIyCUfAvmEQiaQxGsUowSZi9JJKmUU10URFJtdXeXS1qcalH47s+v+eTJ79H4x/TAI4T64u559xGo8hovHdzem4roQF8lD7Gzk/PexrFhgYX4t8v88o0I8THR7CsEJquUi5VyL28cXd7TyH/6nnHE1tdW2ZyYhghxI8zx7a5uLxhbzchhz1lc1iWiaIIDMOPKhQc16VYLANV0g9P8i/r7AzT19uF+wU4roOhqkTCLQihEDKb5bFaQgiCwUC9kd+xFrOp7qVoNCKPJZMZhFAQqooRCKCpCrbjUiiUqFZdksmMPNbWbjHQ3025XOG9UMK2Hfx+H1ZrM7ru4/omJY/V0nUfuu6rNyKP/TVPzGr1/vpasVi7PLa/f8TM7BQdHRbBoIGmCmzHIZ8vks0+c3Z2JY89plMcJLyXXK//39n80s4KsNIocniyDcAndpdsT6DGotMAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Raffinerie\",\"label\":\"Raffinerie\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"fb435fb84040904b6e5332c9fe02a5d0\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAXxJREFUOI2t0z1LI1EUxvH/vTPJZOKom9GE+IoR3UILdV1sFz/Aop2VnV9ARMFCxMZGsLHZcsHKQlwQtrIRa6ONusFGNrsbISwiZkyi82KjNobxGnzac58f5xZH5x2jA2S/bcw4hcJSvUh6ZGi5f3Lquw7gOuXBvyur3fViya3NgefNaiUyOow9/oV4MoWMRvAqdziXBa729nBPcjU7NbGxnz/o+fwJIcWLmb84z/n+AcdT02rYdT5PsdVGSo2oaSI0jcDzuCuXIQj4nztX36ypo41Ub4bAD6jelgk8F2nGaEy2IqTgt/1BHXuKkIKYFQ978jpmJhKhpeauTnWseJZDCInUNQyzAaFJfM+jeusQeD7F01/qmJVOkf7Yh1u9p+KU8F0X3Yhitdjo0Qj/skfq2PPQiGAZ4V9Wxt6amljcbgktJTI96tjh2jrdE19pam/HsBqQmobvulRuSlz/yXOxta2OlXZ2Od3ZDd1OGas3OsDY3MIsMFu38nj0D/yqbOEmXtT6AAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Usine de valorisation\",\"label\":\"Usine de valorisation\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"92b4fee85e8c7f76a0d963a29d246502\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAVJJREFUOI2t0zGKwkAYhuF3komIadSIQpBVsNsFEQ/gBTyBjdVeQLCwWba01CMsHiBNajt724ilFtrHIOoQKxeWDXE27NfOfA///DCSf4wEmM/n78fj8SMr0m63PweDwZcEOJ/Pb9Pp9CUrtlgsXr8nS0qn06HX61GtVpFScrlcOBwOLJdLNptNYicR8zyPbreLEOLX2Xg8ZrVaMRwO9bDdbofjOAghKBQKmKaJUoooigDYbrf6k7muS7PZJI5joihCKUU+n6dSqSCEoFgs6mOPCCGwbTvtynOsVCqllur1uj4WBAGGYWAYxo+dnU4n4jgmCAJ9rFar0Wq1uF6vhGGIUopcLke5XMayLNbrtT72iGVZT5+sjf01iZjjOKmlRqOhj81mM/r9Pq7rYts2pmlyu90Iw5D9fo/nefqY7/v4vp86nTaWNRJgMpmMgFFW5PHp748XaPYTfWZFAAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Raffinerie d'asphalte\",\"label\":\"Raffinerie d'asphalte\",\"description\":\"\"}]}"},"customimage":{"enable":false,"images":[]},"items":[]},{"expand":false,"last":true,"type":5,"id":"474f413e-5bc6-1680-a6b2-5f4e65bb03af","graphid":"a24f304f-65e2-69bf-bfc3-ea97d3d16395","displayfields":false,"label":{"value":"Centrales électriques, 100 MW et plus","alttext":"Centrales électriques, 100 MW et plus"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":true,"type":1,"radioid":0},"displaychild":{"enable":true,"symbol":"{\"type\":\"uniqueValue\",\"field1\":\"PrimSource\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"3ed8b3b668eddb2d24b30a8f823b3804\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAxxJREFUOI2t1HlIk3EYB/Dv++7du625tek2nc6ZRzM3M6NYIR4dDJMuocMDiw667ILoH6WIDrKiiOiALOgickqHQlZEdoshlRkdYE6jpW2W89hmc3u3/qjefJmDiJ6/Xn7v835+PF9eHgr/sahQL/bVbFnMI6ktLo9D52OGBTQlcocJw1t9fvf+8kUnHv8VtrN6a1qAcd5USdTRafFGUiFRguJT8Ax7ZLa+7ujmtsemfTWb3nt8vNl7i47ZQmKH6nbk9g9ab+QbVwiVMhXnEgEtgFY1DlrVOF5Ht8Vwt7Wm/Xhd2dTNCyreB2EHzOtiHAMfrxdlbhRKxdJRRx9wDaLf1Yt4dQLm0yXiWy/NjWVViKwohJeDEbSkapYuVzQa1OfsQ4vlGR62X8OGGXsAAOqIGBhijHL7YOwpYNcaFiu9uDRi4Pu36UkxyRykd7AX91/Xo6WrfsS4QvZ5cpIR5xqOlAD4g6UqDMvGjlFQBEGwjW7PEM407IbT2wO5KA4enxtubw/nMppPQynVCitvH85YO2d7468xeekysYLTaLV3wOntgV6ZA7FQhuZPtQAAPo/7AyjDouDzezIA/MQIEBRJcnPyB/zgEQJEybRoaLsEAAgXJUIkEHMbCYAiKD47Jp8StPU5ezk9EdJIaMamoqnzNns2d1IxRiQBAPjmsiNKGtvKYgRBXnjX/XLX9JQcNjbpGCkCAQZp0VkQUiIkayZCo9RyIJ/XB3t/J2MQZN9isdWmbZ1H63a0d3z5kJSgTgIAuD0u5EyYB12sHqGqpfM5xqvSH5hMJj+LAYBGoim+9+ZaU6SslBSLwkBTNLwMExKyO2xo/fjUm5ViKv59xmJLZq5vNj+qLK9uPFuRb1xOyCXhSNGmjgp97vmE+ldX/NMScgtN6QX2IAwACrLXHrzaeM5W23z5dKJST+vjJkEeFgGSJMAwDL722/HC0oSBIYcrU5e3MG9Kwb2R3wdtjUUZK88/sT4xWy1vTz56c2f+V1dXOIEAyQPFKKWxNrU87nK2Nr/MYDAEZTDqPsvUZA4BWBUysBAVcjn+S/0AVs0Iy+58jOwAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Biomasse\",\"label\":\"Biomasse\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"f328919ad254bc4afe2c7df0ef8295c4\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAApBJREFUOI2tlF9IWlEcx79HmproxdFD7MHXpt4mC1mDGFKhcUVdLCSZEQoJMqggkDHpJezNxgJFH9qLbMgVFOLiS5SwB4c+3Y1tiqwJ0YMJSQ/BFgku9zB0u/7ZYuz7dM739zufc76cwxnAf9RAv0IsFrtXr9efnZ2d3bm8vJQNDg5+HRoa4sViccDtdn++Foxl2eFKpbLv9/t11Wq1s3ybpmlnOBx+S1EU43K5vvWFJZPJuwcHB/mdnR1pvxMXi0WsrKw8WFtbO0mlUhq73X7SBUsmk/JsNpvtBVpdXUUoFBJ429vblEKheAfgFoCmAHZ+fv46FArJO0E+nw/r6+vgOA7Hx8eCWiAQGI7H41sLCwu+NiyRSNxgWfZhr1gulwtKpRLBYBAOh6OrnsvlngD4BZNKpXaO40SdjcvLy6BpGgDAMAxomkaxWBT0RCIRWTqd1tlsto8DAFCv1+/3OtXS0hIIIQAAiqKwubmJubm5rr5Go2EA8BPWbDbFnQ0ejwc6nU7gmUwm6PV68Dwv8Akh0nZMmUz2pRPm9XohEgmTy+VybGxswGazCXyJRPKpDVMqlXG9Xv+itePi4iLGxsZ6Jcf09DQmJiaQy+UAAPPz81cMw+y3YQaD4TQajZZ4ntcAQD6fh9ls7gkDgKOjo/bYarW+IYQI35lWq308Ozv7nuM4Ui6XUS6X+8Ja8ng8DbVa7WzN27DJyckPe3t7T2u12lYrwp9ksViaDofDOT4+ftoFAwCGYZ5nMpnT3d3dl5FIpOuGW/L7/RczMzOPpqam9n/3u34No9H46vDwMGUymaKlUslaKBRuVqtVkUqluhodHa1pNBrWYrH4CCHfO9f2/M9GRkYuALj/mvU6sH/VD/Se3/+WxQm4AAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Charbon\",\"label\":\"Charbon\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"8fa204fc60335e1731db076b13a338d4\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAvRJREFUOI2t1GtIU2EYB/D/uWxn29nF6WaXZYGhpZlLy6jA7gvHrBApu0BFgRHkhz5EWFRQUX0IosuX6EIRFHQhKtRgVFARqZglZrRu1sq1i2e6tcvZdnb6YM12i4geOHDe53ne3+HlPTw0/mPQ2QqtLz2lXCDazAVjFbwgsnKa9OWxdIeWpQ7UTNfb/wqz9nC694PB1p3tnqpXMTG1XF7NkFvOPxp4MFHJ1poqNeGsWNsLT9ld21DHSRcvz/Rli4JCS1AgHvcOL9lbEBlo63GXmMv1zjTManMo7vf5n2aDzpSqoWJItHQPAQAO2kPawzT5HIAhDXO4xUtHB8KqTNCeCXJsrh6Lxmv9SfndHwPjr3c4j6yaPaY5gVn7++mzT4J1maD1ORLsWmoATZJQS4i0+tMvwSYAoxjPsfXXfB4qtXE5S+FEbQFU8pEDLC1U4oSLT+o5/i3Mtr3wlJln6HppAAhEhTmpUC5B4FSNAXkqaSI3r0iD3HYOnJh8y3wsvgDACBYHZKnYSaMGk/IV4KNxSCgCJEkgVynF0RIVGvt8Sb1xUZQnjimjiHep2MIpGgDAuccOLCpWo3TCyN3ML1IDKZhUQvSNYhLqyjSaOPbrJx1HEhinlSHIC9j+xo+NrjAurFaCJAmMzWGSoDoVFWfc+nsJzGzUOY5b7bYdb78XAwAnihAEEQqGwpFCFs0fAjjFC1DJafhCsSTMUsA+MS0k4gkMAIp1zLrF9lDng7BA8CLQ89mPmYUabKjSYzAkQCmjEYnFcbHdnYDWaSSCQcus+bVOYJaK/K6bnc59X7u9B9/ERGx96MT+4Qg+eSOQkgTudLtwy+bHJW8UAFDNkOLaEs0ms1HnSMMAoL5qzKHbXS73DZvv9GVvlF7xbHC0+DWUeN2mZ/jaycoGS6X+9u/706bGypn5Z6wvvVeXBcJnX7v5ZZ1cRNMVjhNz5aQ4SyflpuYxN3VqSZNpmi6SujfjPDMZtT4ADb/nWn4+f4qsw/Ff4gc24BQhIt7gfgAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Gaz naturel\",\"label\":\"Gaz naturel\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"ed411f56f500deaba274d8fcb59d52ac\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAzFJREFUOI2tlGtIk2EUx/9z072bmnNK08BbLc1MHUhe0tIuxjIrpNVMjZbT7CJ0s9KohPpgsi5Sa90s1m2KziS7WLO8ZplhrgmJNRdl+MHECnP6Tuvtgzib04jo/+mc5zzn95xzeDgM/EcxpgrcyM+fbzIOZX/9+i3QZCLZBMH8zuFwWuxAHU3Oze34K1i5XM7rMnzSqAoUQWRf/8Swn6OHe9KFg4efsrhOwk1ZWQNTwu7JFILquvrn2goNweQ6IiV7J+bO8QebZY/vA/1obWtD2enzKDl5LioyMaFbLZf7izIzu61gpXl5Dk3a5gZthYZYsH41dmRsBZfDsSgrJFiA+NjlOHmmAI3F5dPYBOsVAHcAlAXMOEzdeKaucBDEL8O+XbtBMJmTztKNx8ORnIM40G9ElVLFKz4ukyVm78syw4pzcmwfNdStBoAtqdIpQWNydHBERkY6shtfQqfTbQMwDmPPmCH6UH/RZq5wIXy8vMazKKD+xXNotTpERoQhJFhgDs3zmwNnvieayu6zK+XyoBWZmToGAJBDI2EAEBQYbFFBR2cn8nbsBQBUXr6Gqw/K4c7jAQDoDAaCw0NRq/8IchiLAIzCKAp2AGBLt/wpQ+SghU+SpIXPYNiOGjYUYW6TYBHvAMBgeG9xOcDPD6I92/GotBSiVAm8PDzGJ0BR6HjTDgBg2ju0mWFu07m3nPiepxpL7qA3PR2uXK75ZWlyCqTJKZioD5+60NWsxewlET+FUokGaZtHYaFicU/hodx2leysf0n5bWxLlYJGo1kBxjQyMoybqiIAQPSihTU0Gs3yn/G9fTb4RM5vvau4SnNx4UK0ag3odLoVyGQyQalSobHkDgRxS0f4M32SzDMcM2LSJK8fXircf6WvV6Y8dgKtLa1YJ1oLbw9PsAgCA4OD0L83QFWkgr72BTwjBNSKlXFJoWJxjxUMAIRb0k48LlT2VNfUXG5S37V7/eDJpG3GbBQbo6OiEqIlyZrfz622xrI0yfW3VVXq8NAwhd6gj+80dDp/6emzcXVz/cn3nf15lhe/KG5xZBYtIODHxNxJ95lvbKwRgGTSsv6gKZfjv+gXfRsXbbt3B+cAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Géothermie\",\"label\":\"Géothermie\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"7edc229b137aaef1613dcdce01bc6d01\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAwRJREFUOI2tlHtI01EUx7/i1tRt2tQynRlYaL4Teqho1k9+5ppUQ8uUQKkg/cNeFKFQgZYlBEYFI2xCrRTnwmw5tR/O2GSUc/YyxWev1YzKpT1splt/pD/n1iKiA5fLPed8P/fcy72Hgf9oDGcBJdUWPmr6VDRqGos1T06y3VmscR/vhR08HqckLSXl9V/BKLXad2jolfLo+ao1z0zf7MPRSf68PRJprSpoiXc6SZLfncKaKFWkolndceHeQ3dnFWuMJheNWJZyPD3xbZNKFSYgiHcOMIqiPFq1Oq0t6FphNgZfGFCi0DhAS++088rcWF0A+A4w44fxq2dbOri2An+/xcjcJoS+ZwCNQyMAgJyYYFQ/HgYAFMtbA+rqG89sFwmLaBhFUYzKuhaR/e5jn78AVisWctm0r6xoP2Lqm3CstgUAoNU/KQQwBzNPI0PW/dzVHpZZLgHKJfN8nlwuDuTnortvGNJHA6hQdbKbKFWkgCS6GQDwdeJ7nD2oqmAHdotlDnfF5XDAYLiCTFoN6aMBAIDZPJkM4BfMMm11sxVs4PtgV5YILwxGlCg0OJ1BgM32wMFrd1AtvwW+vx/KrzfQ+RbAnT6mmxtz0BaWGr8KTCYTa2MjAIUGnlwO9uVl46XBiNyLNQ7VLmAwe+ZgHqzqCJ7HudlHWixvxYTZDJm6EwCwNjYKTCYTh/NzUaHSzwOJQgMtLFdLMw0TEISxQizpPyRVhswmlSraaUFEWCgAIJAfgL3rwnHlQQ8dEybHtZMkaaFhABASHJxDBPrqVIYPLvbH+DH1Y2aewsdP47Q/J2r5ND/Ib+fsmoYJN23U37ytPPFGfKO0b2zel8ORk+cgEiRDfb8L9X0GAECSP8+avY3MExCE0QEGABlbNp9qaLz7Xq5suyR92E/HJLpeSHS9dF5BYrQ5nUjIEqaRDbZ6h66xVZh6maK0NanrjZW9g89TdU8HvPQjJpf4pYusqyNCRleuWHbT14tdSJLkpL32t/2MJBPGAWTZ+hpnxp/MaXP8F/sJgK4X6RSBQLsAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Hydroélectrique\",\"label\":\"Hydroélectrique\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"a8101fb57370e03c929ddf05e22f70b2\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAypJREFUOI2t1FtM22UYx/Hvf/u3/fdAgMGggFy4A8phIwIF5jZQWJc5lWmmmZleLNEbL+aFVyNxXniIF2qMZonZFi+MyYxxE+eyrvoPCIU61nJYRxmDUbAbXQtI6dqVCj15YVYth2mMv6s3z5vnk/d5Lx6R/zHiWhc2eaAsOB9svRcIPxZdimpVkjKozdbadFkZ79Q1V93+V5jdci132nXHZP6s3RANxJZfb9fopVfNX8kdefqcZ6qMVb+vidnk/grHj1dtbotHDVBoyOfRXVvQZKgJ+e8x1H4D/0hAsJ7qay7Zv+lOX0dfaU1TzfQKzC7bNcOXR39xWzxqTYGaF48/y6byhxEEgd6f7IxaXVS3VKJ8QcT88c+MmSaylSrFAFC0Agv8FvrSJbszpA1KXvv0FXL1OakXJ5NJfIOz+Aa72LgthwNv7aPtuAln22hh5/c9Hzzx3K7WFCbLv4rD35qfB3jqzeY0aHlmh+Zw5DlpeL2erhO9TPRPHgX+wjTx6YNzI/Pr10kCZbWla0L342q/xfYnywGY7JzS2uT+ilpjtVMEiEaW6gGKDQWoJOU/YgCxWBxFlkg0EGNxabER+BNLxBMSgKhS0H3xMldNzrTG3S/Xc8z0RlpNVIh0nO4mGoiRSKJOjSlKinEA38gM2xpLmR2aS2tcJwhodJq0WiQcIeyJAKASxespTK1RnFFkiR+FPREkrYRqg4JFf/SBY9685gIguyQzEVp/15zCDE0G73efXxgbPOMssZ67QkvrPs4eu0AyvjoUDi0gn+oC4JHGLT1GozGRwgCKthYcHity2W9bvUJG7g0Of3KQnrO9uC2eNCg4H+SbD9u46wqxsSInnvdQ9kupf7x/qNtT02/5wfp250nru9fP38TdN0XDkR3UH6hBl6Xj1vgUE0OTdH/RSzQYR6OXktUtlUcMTQbvCgygoWXne9aLV2YHLjlOzDjmxEvvd6w6ZvGOgsWKPWWHHt9be/7v9RVbY+fTdScdsuPrmd3+095x317v8Ezmgm9B0BXrkoVl+X795vxz+szco+XG8qXlvavus0pjZRA4tOqzHpA1l+N/yR99lTHjYp51GgAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Nucléaire\",\"label\":\"Nucléaire\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"c0b267e99af6dfdda52f435adde6f3fb\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAvZJREFUOI2t1FtIU3EcB/Dv8BzdRedlonkZU+fCy3K5XErzRjIh8EWMlJ6Cgp4EH3rxpYcKeomI6CWCoKiESELpYnkJTaduam5T8+6cujmXU6ebbmfb6WF5mjojot/b//f7/z6c8/vDj8B/DOK4Qs+ILmfb4Wp0OF35lNfHI0nSEcPjaiKjuLdK5KeW/grr0evjV832D2+6hhR7lPdwOY/Pibj6tuNrlyiOVyWXy/eOxXqGR6VDulnN5LKNE5wPY7Hgo2kAgGPXzfqonajIz0g19w3ps5UFedYjmFY7zR2cnlQfhgCgWCqGNFOEJcsaWgcMAIBv88uxESQxAiDlCLa68+OZ3miJCjWLOfMaJhbNuF6tgnXDgcGpRQDAwJQx+XOv9m5lsaKRwdqNRqLvk7o6FCROEkAuEUEQw8fD1224dL6QwQBg3LhSD+A3Rlg3asz27bBgJEeYCFGiAJmiFEgl6ZhaMMGx64aHosAJJ7DrCTzO9yUrr2d4VFp65vQYAQBuD1UUDN2ou4BMUSp2nLvgctmBZGD+mDFZUJSVji/6GeY+RfnKAAQw2k+z9wuSZAEkaUK0dqnxXjOGiyVyqJQFTKN2ehHXqsoPYLQfHOY3w8mw2f3CrMWOhvtPsUf5fn0QfWCGXj+NLacTxbkZ6B2fBwCQRNgEg7FJ8hWbJO7tUV7QNI2aMgVetPeHeg8AQFOnBskCPgAgMSbS79mytTGYUiGzvHzXMd1tmDvJ50SgIFeC5m4tM+RQYV53AABkYmGvSlXqZzAAEJ5IuBwzt6zddLlZDQ+eH4sER6qA70uKja7bPzNYaUHecHuf9maLWnfb4/UxDXPLa+gbMcBssx+A+JwIuliWdUWpkFmOYACgUirudA6O2PoNM49Mtk0CAEYXVjC6sHIAkiQL3IpscW352fyW4PyRrVFRKH+s1uma7HbnE5N1vdK0Zo/ecrlZsZEcOi0xzi5MiG8m4iPry3NzPYd7Q+6zczKZA0BtqNqf4tjl+C/xE5y2LmXwJXiKAAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Pompage turbinage\",\"label\":\"Pompage turbinage\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"edc72df20819a80a05d962117ee301f8\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAutJREFUOI2tlN1LU2Ecx7/bzs7ZcXNzukw30TWnVIpgEsaMwmSlUJAZGHUTdO0fIEjQG97UVd5EBAW92rv2ZodetBoxSSXKai6d6Zz5uu1sbjs7O6eL6DSdi4h+d8/v9/w+z+/7fR4eAv8xiHSFMQezkWPnWzl2vlKIc2o5SQcprd5JaQ3Hi6rrJv4K5ulnDGHv+CPPw1ObhZhvZbmCUFuPfHpw8TltNO02b7JH08I8DqZ8pv+pkx3totNNzIfdsqmX7XX6skNTY28eb1hX0/A9BebrZzK8g30OdrSLVmauR0lTG3QFFpAZGsgVBIQEj1iYxeK4C+5bbVj8eEUvU6oGAJhSYIG5mUsBV2cmAIh8FNxSEFyYBQDI5AqIAg8uFAS/xELkwwCAhaELxpFnd9pL6va1SjAPwxDegcuNkpSIBwZrBYK+bwhMuiHE45ArSaiycqA1FUPg/ZJs/4izBcBvmKjimqKzbxXJ3mToDcjQG1I8W1qcW7YOuu+qPQ6m3GyzfyAAIBGLbEneQOVUpfMfhIoGQZvBRzxSTuCWtgP4CRNFQZXcEA98havnOjRGCyh1pnQBUdaP4IQLfHRy2QGiKNKSTDlBupOLAu9H8Y5GhGanEQsFEI9GICcIZOaaoDOZ4ettXwZTEOSwBFOS1FU5lX86+ZEqlBR0xqIUmSs9o3KqhKKo8okEK6xp8L3v7HDNOs+WpjUrTWSX2V/L7HZBggGAtqDkoH+4tD8ecsnoXBsSXAwKkkppVpAUCLUVfNgNeq0tocnJO/CrJsHMtl3v3C/uHZ1gzpyIzDjw6pgdWkstyKx8KJQkEvEYoguTYN09EIUQCLVVzKvef7iwpsGXAgMAa+3ek6N93bPTzu6OyHQv4f98Y1VpmqL62JrKhmbL1vr7yfmUX8Oybc85r4O5FgrWng9NftkZ9g7q+PC4TKktEdUFlQsaY/HtbFN2i6HMzq3sXfU/M9nsQQDNy7NDAG6uOukfYf8aPwDvxCt5dW4vnQAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Pétrole\",\"label\":\"Pétrole\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"3c1ac57337e7a8292f16afa1444776fd\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAv1JREFUOI2tlF1sy2EUh5+u7f7aplurVTpdxtDZMoxljMgWXYoLjEgMIRFkER+ZrwtL2AXChSWybC4EE5PNzUQm5iOLiZgJY2TYBZuvhRrR0an17ddc/Fk3NRHxu3pzzvs+7zm/nBwV/1Gq4RI3jpFm0FOs00jT1UqhCwQlz9dv4l6Pl/15W+j6K1hDOeZEi3R5ok1kKZUAAn8AYtUCYKo/wIanNTS+e80iZzG+YWGNZaRPncQ9k0FoBsebHoEjSz7HqlGkJZNnjOddYwWpjq10R8EaytGmJdOs16HpE6CR5LjnK1RdjsAA3B6wmjAGg7QCY6NgFgNnRpvQA1ReBHsSzJ4CL11w5gqUFoFOA/VNMMoIuTMgcTQJLZXS4az1ongA1nAY1QQby36C83Mhex04ZsJ0OxwqlCEXbkKcFipLIlWOSxDbgAhMa7Iu12lcyp8XTPFQtgs634LJAF3vwRQHmSmwOAdUygjMbEDXWEa6o4gnKgAp1p0NEA7D24/Q3gnX70NOBizdE3l46Qhcvwufe2FiIiSYISYGtLqRueCWYQrEiHAY2jqgpR3qb0PdLZgzjSEKhmD3MSjMh4XZMCMVksaAQuHVDLQZDEodMTGCDDtk2GFjPtxshV4vrF0AZ6/BzpUggtBRCxNsQz/x+UT7AMwbFDWhEKXKH16Ew1B9Va6wbBcsyQF/AAr2QvlO2LoiAvrmI+y3c3UA5tiEq7NWepZsE3aA5seg18CdU/D8DTiL4OUFeFgFpdXgfA0pSTLslUtqcq4S4SFz9uaDWD3WQotKiUI7Akq3y+aq1ZBiBZsFxlnh9D54+gL6+8HbR6j7i1gZNbTzNvPg7impJDNVHMicHGnDaoLtayLjoFbJvvoD9Le9sK5zbHK5omAAszaIg80nR35MH++u0OvknEIBy/OGGt7jQbS/shbMLXTVDY5HbY05G93HG45yzmLmhMXIfGMc8eZ4FH2C/p5e3N2fOP9JsM1Z6PL/+va3+8y5Aw9Q8LvcnzTscvwXfQfEDPoWmnan7AAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Solaire\",\"label\":\"Solaire\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"780fd90317ddd31dd593fdb9ac27c0cd\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAshJREFUOI2tlF9IU2EYxh/bOXO2tTkJh8XQGyfl3JwwCI+uwdiuuonQYldB17I7QbwIVtBNl4FEiHShgTi1mxYOEw9tOrV0kqkjRU66fZFseET257CdLmondTsR0XP5Pu/3e9/ng++j8B9FyRksy14/Pj4e4HneJgiCmqZpvra2dkmj0fi7u7u//hWMZdnLhJA3ExMT9mw2C51Oh/b2dszNzQGARavVPpiamnrX2Nh4q6OjIysLY1nWvLKysrS1tVVTqimVSvT29mJ7exuEEPA8XxUMBl02my0RDoevMQzzrQy2vLx8MRqNRk6DACCXy4GiKLS1tYEQItVXV1f11dXVHwFcLYMRQl6ur69fOh87k8lIG57X4uLilZmZmScej2dAgoVCISocDt8u6wYgCAKKxSLS6XQlGxsbG30AfsMoirqTSCQUFbsBZLNZxGKxit7m5qaaZVmzw+H4RAFALpe7IQcCgFgshpOTE1lfEISbAH7CRFFUnW/QaDSwWCyoq6tDNBqFyWRCPB6vCBNFsQb4FVOpVH4pGQ0NDejp6UFLSwtSqRTGx8exs7ODwcFBpNNpTE9PY29v7wyMpunPEkylUo2pVKqnBoMBPp8PNE1jfn4egUAAhUIBADA0NASfz4f+/n6sra1hcnISh4eHMBgMxXw+/1aCMQyTHB0djZvNZtPBwQHGxsaQTCbPTCeEwO/3w+v1wmq1orW1FSMjI6ivr3/vdruLEgwAjEajNxgMLu3u7l6Qu+hMJoPh4WEoFAqo1WpotdqC1Wq9V/IlmMPh+BAKhR7u7+8/yufzcjwAKEUXu7q67jMMI0U48zbdbvfj2dnZ7wsLC884jpP9UZqbm3N2u/2u0+l8fbpedsDlcj2PRCKvUqnUC47jPBzH6Y6Ojqr0er3Y1NSUMhqNAYqi+pxOZ9n6Fad3dnbyAO7+MWsFyUb5F/0AGTAhHceTNV8AAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Éolien\",\"label\":\"Éolien\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"16ffb21f5cf8ed02589b5c7a99e79468\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAfVJREFUOI2t1M+LUlEUB/AjCs/XGPEwFxZPeChBMSaBQSuD+7gq2EJNmGgVtJ4/YDYtKggkXEguwlUi5sLEREU46MZInCxBooUEIkpD+Atm5RN806I0Gec1jtN3d+/hfO49cLka+I/RKBUQ8cZwONwbj8e3JEnaYln2kOO4fb1e/1QUxe5aGCJe7nQ6hWAweLvf7x8v3+R5/nEsFisbjcZ7lNKJIoaI26VSab9YLLJKN+52u6pQKCQGAoEf5XL5OiHk5wqGiBcqlcrHf0HLSaVSnFar/QIAV1ewwWDwJpvNXlwHmicej19Jp9Mv/H7/3gJDRE0ikfCdBZqnXq/vAsBfbDqd3m80GupNsEKhsIWI25TSrxoAgMlkcmcTaB5Jku4CwG9MlmXtebDZbMYC/BmTYZjv58EYhvm2wHQ6XcJgMLw84ZGeGqvVKqvV6uICI4QcRCKRVjQavXZWTBTFD5RSeYEBAFgsloeCIHxqt9uqdSG73T4zmUwP5usF5nK5PmcymSfhcPjZaDQ6FeJ5/sjn8z0ihBysYAAAXq/3eT6f7+dyuVfValXxRyGESE6nc8ftdr9f3l9p8Hg8rxHxrcPhiLZaLWez2bzU6/VUgiAc2Wy2kdlsfsdx3C6ldHq898TTKaWHALCzvFer1SCZTCqOrYhtml8QArhDwbhRowAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Autre\",\"label\":\"Autre\",\"description\":\"\"}]}"},"customimage":{"enable":false,"images":[]},"items":[]},{"expand":false,"last":true,"type":5,"id":"76aa008e-9d55-43d4-f92b-1244fdc2e427","graphid":"5e8f2c72-f5b8-92ef-ff13-cd190fc38223","displayfields":false,"label":{"value":"Centrales électriques à énergie renouvelable, 1 MW et plus","alttext":"Centrales électriques à énergie renouvelable, 1 MW et plus"},"metadata":{"enable":false},"opacity":{"enable":false,"min":0,"max":1,"initstate":1},"visibility":{"enable":true,"initstate":true,"type":1,"radioid":0},"displaychild":{"enable":true,"symbol":"{\"type\":\"uniqueValue\",\"field1\":\"PrimRenew\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"3ed8b3b668eddb2d24b30a8f823b3804\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAxxJREFUOI2t1HlIk3EYB/Dv++7du625tek2nc6ZRzM3M6NYIR4dDJMuocMDiw667ILoH6WIDrKiiOiALOgickqHQlZEdoshlRkdYE6jpW2W89hmc3u3/qjefJmDiJ6/Xn7v835+PF9eHgr/sahQL/bVbFnMI6ktLo9D52OGBTQlcocJw1t9fvf+8kUnHv8VtrN6a1qAcd5USdTRafFGUiFRguJT8Ax7ZLa+7ujmtsemfTWb3nt8vNl7i47ZQmKH6nbk9g9ab+QbVwiVMhXnEgEtgFY1DlrVOF5Ht8Vwt7Wm/Xhd2dTNCyreB2EHzOtiHAMfrxdlbhRKxdJRRx9wDaLf1Yt4dQLm0yXiWy/NjWVViKwohJeDEbSkapYuVzQa1OfsQ4vlGR62X8OGGXsAAOqIGBhijHL7YOwpYNcaFiu9uDRi4Pu36UkxyRykd7AX91/Xo6WrfsS4QvZ5cpIR5xqOlAD4g6UqDMvGjlFQBEGwjW7PEM407IbT2wO5KA4enxtubw/nMppPQynVCitvH85YO2d7468xeekysYLTaLV3wOntgV6ZA7FQhuZPtQAAPo/7AyjDouDzezIA/MQIEBRJcnPyB/zgEQJEybRoaLsEAAgXJUIkEHMbCYAiKD47Jp8StPU5ezk9EdJIaMamoqnzNns2d1IxRiQBAPjmsiNKGtvKYgRBXnjX/XLX9JQcNjbpGCkCAQZp0VkQUiIkayZCo9RyIJ/XB3t/J2MQZN9isdWmbZ1H63a0d3z5kJSgTgIAuD0u5EyYB12sHqGqpfM5xqvSH5hMJj+LAYBGoim+9+ZaU6SslBSLwkBTNLwMExKyO2xo/fjUm5ViKv59xmJLZq5vNj+qLK9uPFuRb1xOyCXhSNGmjgp97vmE+ldX/NMScgtN6QX2IAwACrLXHrzaeM5W23z5dKJST+vjJkEeFgGSJMAwDL722/HC0oSBIYcrU5e3MG9Kwb2R3wdtjUUZK88/sT4xWy1vTz56c2f+V1dXOIEAyQPFKKWxNrU87nK2Nr/MYDAEZTDqPsvUZA4BWBUysBAVcjn+S/0AVs0Iy+58jOwAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Biomasse\",\"label\":\"Biomasse\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"ed411f56f500deaba274d8fcb59d52ac\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAzFJREFUOI2tlGtIk2EUx/9z072bmnNK08BbLc1MHUhe0tIuxjIrpNVMjZbT7CJ0s9KohPpgsi5Sa90s1m2KziS7WLO8ZplhrgmJNRdl+MHECnP6Tuvtgzib04jo/+mc5zzn95xzeDgM/EcxpgrcyM+fbzIOZX/9+i3QZCLZBMH8zuFwWuxAHU3Oze34K1i5XM7rMnzSqAoUQWRf/8Swn6OHe9KFg4efsrhOwk1ZWQNTwu7JFILquvrn2goNweQ6IiV7J+bO8QebZY/vA/1obWtD2enzKDl5LioyMaFbLZf7izIzu61gpXl5Dk3a5gZthYZYsH41dmRsBZfDsSgrJFiA+NjlOHmmAI3F5dPYBOsVAHcAlAXMOEzdeKaucBDEL8O+XbtBMJmTztKNx8ORnIM40G9ElVLFKz4ukyVm78syw4pzcmwfNdStBoAtqdIpQWNydHBERkY6shtfQqfTbQMwDmPPmCH6UH/RZq5wIXy8vMazKKD+xXNotTpERoQhJFhgDs3zmwNnvieayu6zK+XyoBWZmToGAJBDI2EAEBQYbFFBR2cn8nbsBQBUXr6Gqw/K4c7jAQDoDAaCw0NRq/8IchiLAIzCKAp2AGBLt/wpQ+SghU+SpIXPYNiOGjYUYW6TYBHvAMBgeG9xOcDPD6I92/GotBSiVAm8PDzGJ0BR6HjTDgBg2ju0mWFu07m3nPiepxpL7qA3PR2uXK75ZWlyCqTJKZioD5+60NWsxewlET+FUokGaZtHYaFicU/hodx2leysf0n5bWxLlYJGo1kBxjQyMoybqiIAQPSihTU0Gs3yn/G9fTb4RM5vvau4SnNx4UK0ag3odLoVyGQyQalSobHkDgRxS0f4M32SzDMcM2LSJK8fXircf6WvV6Y8dgKtLa1YJ1oLbw9PsAgCA4OD0L83QFWkgr72BTwjBNSKlXFJoWJxjxUMAIRb0k48LlT2VNfUXG5S37V7/eDJpG3GbBQbo6OiEqIlyZrfz622xrI0yfW3VVXq8NAwhd6gj+80dDp/6emzcXVz/cn3nf15lhe/KG5xZBYtIODHxNxJ95lvbKwRgGTSsv6gKZfjv+gXfRsXbbt3B+cAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Géothermie\",\"label\":\"Géothermie\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"7edc229b137aaef1613dcdce01bc6d01\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAwRJREFUOI2tlHtI01EUx7/i1tRt2tQynRlYaL4Teqho1k9+5ppUQ8uUQKkg/cNeFKFQgZYlBEYFI2xCrRTnwmw5tR/O2GSUc/YyxWev1YzKpT1splt/pD/n1iKiA5fLPed8P/fcy72Hgf9oDGcBJdUWPmr6VDRqGos1T06y3VmscR/vhR08HqckLSXl9V/BKLXad2jolfLo+ao1z0zf7MPRSf68PRJprSpoiXc6SZLfncKaKFWkolndceHeQ3dnFWuMJheNWJZyPD3xbZNKFSYgiHcOMIqiPFq1Oq0t6FphNgZfGFCi0DhAS++088rcWF0A+A4w44fxq2dbOri2An+/xcjcJoS+ZwCNQyMAgJyYYFQ/HgYAFMtbA+rqG89sFwmLaBhFUYzKuhaR/e5jn78AVisWctm0r6xoP2Lqm3CstgUAoNU/KQQwBzNPI0PW/dzVHpZZLgHKJfN8nlwuDuTnortvGNJHA6hQdbKbKFWkgCS6GQDwdeJ7nD2oqmAHdotlDnfF5XDAYLiCTFoN6aMBAIDZPJkM4BfMMm11sxVs4PtgV5YILwxGlCg0OJ1BgM32wMFrd1AtvwW+vx/KrzfQ+RbAnT6mmxtz0BaWGr8KTCYTa2MjAIUGnlwO9uVl46XBiNyLNQ7VLmAwe+ZgHqzqCJ7HudlHWixvxYTZDJm6EwCwNjYKTCYTh/NzUaHSzwOJQgMtLFdLMw0TEISxQizpPyRVhswmlSraaUFEWCgAIJAfgL3rwnHlQQ8dEybHtZMkaaFhABASHJxDBPrqVIYPLvbH+DH1Y2aewsdP47Q/J2r5ND/Ib+fsmoYJN23U37ytPPFGfKO0b2zel8ORk+cgEiRDfb8L9X0GAECSP8+avY3MExCE0QEGABlbNp9qaLz7Xq5suyR92E/HJLpeSHS9dF5BYrQ5nUjIEqaRDbZ6h66xVZh6maK0NanrjZW9g89TdU8HvPQjJpf4pYusqyNCRleuWHbT14tdSJLkpL32t/2MJBPGAWTZ+hpnxp/MaXP8F/sJgK4X6RSBQLsAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Hydroélectrique\",\"label\":\"Hydroélectrique\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"c0b267e99af6dfdda52f435adde6f3fb\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAvZJREFUOI2t1FtIU3EcB/Dv8BzdRedlonkZU+fCy3K5XErzRjIh8EWMlJ6Cgp4EH3rxpYcKeomI6CWCoKiESELpYnkJTaduam5T8+6cujmXU6ebbmfb6WF5mjojot/b//f7/z6c8/vDj8B/DOK4Qs+ILmfb4Wp0OF35lNfHI0nSEcPjaiKjuLdK5KeW/grr0evjV832D2+6hhR7lPdwOY/Pibj6tuNrlyiOVyWXy/eOxXqGR6VDulnN5LKNE5wPY7Hgo2kAgGPXzfqonajIz0g19w3ps5UFedYjmFY7zR2cnlQfhgCgWCqGNFOEJcsaWgcMAIBv88uxESQxAiDlCLa68+OZ3miJCjWLOfMaJhbNuF6tgnXDgcGpRQDAwJQx+XOv9m5lsaKRwdqNRqLvk7o6FCROEkAuEUEQw8fD1224dL6QwQBg3LhSD+A3Rlg3asz27bBgJEeYCFGiAJmiFEgl6ZhaMMGx64aHosAJJ7DrCTzO9yUrr2d4VFp65vQYAQBuD1UUDN2ou4BMUSp2nLvgctmBZGD+mDFZUJSVji/6GeY+RfnKAAQw2k+z9wuSZAEkaUK0dqnxXjOGiyVyqJQFTKN2ehHXqsoPYLQfHOY3w8mw2f3CrMWOhvtPsUf5fn0QfWCGXj+NLacTxbkZ6B2fBwCQRNgEg7FJ8hWbJO7tUV7QNI2aMgVetPeHeg8AQFOnBskCPgAgMSbS79mytTGYUiGzvHzXMd1tmDvJ50SgIFeC5m4tM+RQYV53AABkYmGvSlXqZzAAEJ5IuBwzt6zddLlZDQ+eH4sER6qA70uKja7bPzNYaUHecHuf9maLWnfb4/UxDXPLa+gbMcBssx+A+JwIuliWdUWpkFmOYACgUirudA6O2PoNM49Mtk0CAEYXVjC6sHIAkiQL3IpscW352fyW4PyRrVFRKH+s1uma7HbnE5N1vdK0Zo/ecrlZsZEcOi0xzi5MiG8m4iPry3NzPYd7Q+6zczKZA0BtqNqf4tjl+C/xE5y2LmXwJXiKAAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Pompage turbinage\",\"label\":\"Pompage turbinage\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"3c1ac57337e7a8292f16afa1444776fd\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAv1JREFUOI2tlF1sy2EUh5+u7f7aplurVTpdxtDZMoxljMgWXYoLjEgMIRFkER+ZrwtL2AXChSWybC4EE5PNzUQm5iOLiZgJY2TYBZuvhRrR0an17ddc/Fk3NRHxu3pzzvs+7zm/nBwV/1Gq4RI3jpFm0FOs00jT1UqhCwQlz9dv4l6Pl/15W+j6K1hDOeZEi3R5ok1kKZUAAn8AYtUCYKo/wIanNTS+e80iZzG+YWGNZaRPncQ9k0FoBsebHoEjSz7HqlGkJZNnjOddYwWpjq10R8EaytGmJdOs16HpE6CR5LjnK1RdjsAA3B6wmjAGg7QCY6NgFgNnRpvQA1ReBHsSzJ4CL11w5gqUFoFOA/VNMMoIuTMgcTQJLZXS4az1ongA1nAY1QQby36C83Mhex04ZsJ0OxwqlCEXbkKcFipLIlWOSxDbgAhMa7Iu12lcyp8XTPFQtgs634LJAF3vwRQHmSmwOAdUygjMbEDXWEa6o4gnKgAp1p0NEA7D24/Q3gnX70NOBizdE3l46Qhcvwufe2FiIiSYISYGtLqRueCWYQrEiHAY2jqgpR3qb0PdLZgzjSEKhmD3MSjMh4XZMCMVksaAQuHVDLQZDEodMTGCDDtk2GFjPtxshV4vrF0AZ6/BzpUggtBRCxNsQz/x+UT7AMwbFDWhEKXKH16Ew1B9Va6wbBcsyQF/AAr2QvlO2LoiAvrmI+y3c3UA5tiEq7NWepZsE3aA5seg18CdU/D8DTiL4OUFeFgFpdXgfA0pSTLslUtqcq4S4SFz9uaDWD3WQotKiUI7Akq3y+aq1ZBiBZsFxlnh9D54+gL6+8HbR6j7i1gZNbTzNvPg7impJDNVHMicHGnDaoLtayLjoFbJvvoD9Le9sK5zbHK5omAAszaIg80nR35MH++u0OvknEIBy/OGGt7jQbS/shbMLXTVDY5HbY05G93HG45yzmLmhMXIfGMc8eZ4FH2C/p5e3N2fOP9JsM1Z6PL/+va3+8y5Aw9Q8LvcnzTscvwXfQfEDPoWmnan7AAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Solaire\",\"label\":\"Solaire\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"780fd90317ddd31dd593fdb9ac27c0cd\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAshJREFUOI2tlF9IU2EYxh/bOXO2tTkJh8XQGyfl3JwwCI+uwdiuuonQYldB17I7QbwIVtBNl4FEiHShgTi1mxYOEw9tOrV0kqkjRU66fZFseET257CdLmondTsR0XP5Pu/3e9/ng++j8B9FyRksy14/Pj4e4HneJgiCmqZpvra2dkmj0fi7u7u//hWMZdnLhJA3ExMT9mw2C51Oh/b2dszNzQGARavVPpiamnrX2Nh4q6OjIysLY1nWvLKysrS1tVVTqimVSvT29mJ7exuEEPA8XxUMBl02my0RDoevMQzzrQy2vLx8MRqNRk6DACCXy4GiKLS1tYEQItVXV1f11dXVHwFcLYMRQl6ur69fOh87k8lIG57X4uLilZmZmScej2dAgoVCISocDt8u6wYgCAKKxSLS6XQlGxsbG30AfsMoirqTSCQUFbsBZLNZxGKxit7m5qaaZVmzw+H4RAFALpe7IQcCgFgshpOTE1lfEISbAH7CRFFUnW/QaDSwWCyoq6tDNBqFyWRCPB6vCBNFsQb4FVOpVH4pGQ0NDejp6UFLSwtSqRTGx8exs7ODwcFBpNNpTE9PY29v7wyMpunPEkylUo2pVKqnBoMBPp8PNE1jfn4egUAAhUIBADA0NASfz4f+/n6sra1hcnISh4eHMBgMxXw+/1aCMQyTHB0djZvNZtPBwQHGxsaQTCbPTCeEwO/3w+v1wmq1orW1FSMjI6ivr3/vdruLEgwAjEajNxgMLu3u7l6Qu+hMJoPh4WEoFAqo1WpotdqC1Wq9V/IlmMPh+BAKhR7u7+8/yufzcjwAKEUXu7q67jMMI0U48zbdbvfj2dnZ7wsLC884jpP9UZqbm3N2u/2u0+l8fbpedsDlcj2PRCKvUqnUC47jPBzH6Y6Ojqr0er3Y1NSUMhqNAYqi+pxOZ9n6Fad3dnbyAO7+MWsFyUb5F/0AGTAhHceTNV8AAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Éolien\",\"label\":\"Éolien\",\"description\":\"\"}]}"},"customimage":{"enable":false,"images":[]},"items":[]}]},"toolbardraw":{"enable":true,"expand":false,"pos":2,"drawline":{"enable":true},"drawtext":{"enable":true},"measureline":{"enable":true,"unit":1},"measurearea":{"enable":true,"unit":1},"importexport":{"enable":true}},"toolbarnav":{"enable":true,"expand":false,"pos":0,"mapwkid":102100,"geolocation":{"enable":true,"graphic":true,"info":true},"scaledisplay":{"enable":true,"format":1},"overview":{"enable":true,"url":"","type":2},"position":{"enable":true}},"toolbardata":{"enable":true,"expand":false,"pos":3,"datafile":{"enable":true},"dataurl":{"enable":true},"dataquery":{"enable":true}},"toolbarextract":{"enable":false,"expand":false,"pos":-1,"grid":{"enable":false,"id":"0"},"items":[]},"insetframe":{"enable":false},"customwidgets":[]}}
+{
+    "gcviz": {
+        "mapframe": {
+            "size": {
+                "height": 550,
+                "width": 1200
+            },
+            "map": {
+                "urlgeomserv": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/Utilities/Geometry/GeometryServer",
+                "urlproxy": "http://geoappext.nrcan.gc.ca/php/proxy.ashx",
+                "urldownload": "http://geoappext.nrcan.gc.ca/php/download.php",
+                "urlsaveimage": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+                "sr": {
+                    "wkid": 102100
+                },
+                "extentmax": {
+                    "xmin": -22463925.36867,
+                    "ymin": 993732.83539,
+                    "xmax": 1017529.72053,
+                    "ymax": 13091248.30409
+                },
+                "extentinit": {
+                    "xmin": -22463925.36867,
+                    "ymin": 993732.83539,
+                    "xmax": 1017529.72053,
+                    "ymax": 13091248.30409
+                },
+                "lods": {
+                    "enable": true,
+                    "values": [{
+                        "level": 1,
+                        "resolution": 156543.03392800014,
+                        "scale": 591657527.591555,
+                        "check": false
+                    }, {
+                        "level": 2,
+                        "resolution": 78271.51696399994,
+                        "scale": 295828763.795777,
+                        "check": false
+                    }, {
+                        "level": 3,
+                        "resolution": 39135.75848200009,
+                        "scale": 147914381.897889,
+                        "check": false
+                    }, {
+                        "level": 4,
+                        "resolution": 19567.87924099992,
+                        "scale": 73957190.948944,
+                        "check": true
+                    }, {
+                        "level": 5,
+                        "resolution": 9783.93962049996,
+                        "scale": 36978595.474472,
+                        "check": true
+                    }, {
+                        "level": 6,
+                        "resolution": 4891.96981024998,
+                        "scale": 18489297.737236,
+                        "check": true
+                    }, {
+                        "level": 7,
+                        "resolution": 2445.98490512499,
+                        "scale": 9244648.868618,
+                        "check": true
+                    }, {
+                        "level": 8,
+                        "resolution": 1222.992452562495,
+                        "scale": 4622324.434309,
+                        "check": true
+                    }, {
+                        "level": 9,
+                        "resolution": 611.4962262813797,
+                        "scale": 2311162.217155,
+                        "check": true
+                    }, {
+                        "level": 10,
+                        "resolution": 305.74811314055756,
+                        "scale": 1155581.108577,
+                        "check": true
+                    }, {
+                        "level": 11,
+                        "resolution": 152.87405657041106,
+                        "scale": 577790.554289,
+                        "check": true
+                    }, {
+                        "level": 12,
+                        "resolution": 76.43702828507324,
+                        "scale": 288895.277144,
+                        "check": true
+                    }, {
+                        "level": 13,
+                        "resolution": 38.21851414253662,
+                        "scale": 144447.638572,
+                        "check": true
+                    }, {
+                        "level": 14,
+                        "resolution": 19.10925707126831,
+                        "scale": 72223.819286,
+                        "check": true
+                    }, {
+                        "level": 15,
+                        "resolution": 9.554628535634155,
+                        "scale": 36111.909643,
+                        "check": true
+                    }, {
+                        "level": 16,
+                        "resolution": 4.77731426794937,
+                        "scale": 18055.954822,
+                        "check": true
+                    }, {
+                        "level": 17,
+                        "resolution": 2.388657133974685,
+                        "scale": 9027.977411,
+                        "check": true
+                    }, {
+                        "level": 18,
+                        "resolution": 2.388657133974685,
+                        "scale": 9027.977411,
+                        "check": true
+                    }, {
+                        "level": 19,
+                        "resolution": 0.5971642835598172,
+                        "scale": 2256.994353,
+                        "check": true
+                    }, {
+                        "level": 20,
+                        "resolution": 0.29858214164761665,
+                        "scale": 1128.497176,
+                        "check": true
+                    }]
+                },
+                "link": false,
+                "zoombar": {
+                    "bar": true,
+                    "zoom": true,
+                    "zoomfull": true,
+                    "previousnext": true
+                },
+                "bases": [{
+                    "label": "worldtopo",
+                    "id": "cc77bc0a-8480-1a52-2740-55b581f40616",
+                    "type": 2,
+                    "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer",
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "legend": 1
+                }, {
+                    "label": "worldimagery",
+                    "id": "cc77bc0a-8480-1a52-2740-55b581f40617",
+                    "type": 2,
+                    "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer",
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "legend": 1
+                }, {
+                    "label": "worldterrain",
+                    "id": "cc77bc0a-8480-1a52-2740-55b581f40618",
+                    "type": 2,
+                    "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer",
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "legend": 1
+                }, {
+                    "label": "worldstreet",
+                    "id": "cc77bc0a-8480-1a52-2740-55b581f40619",
+                    "type": 2,
+                    "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer",
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "legend": 1
+                }, {
+                    "label": "worldshaded",
+                    "id": "cc77bc0a-8480-1a52-2740-55b581f40620",
+                    "type": 2,
+                    "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer",
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "legend": 1
+                }, {
+                    "label": "worldphysical",
+                    "id": "cc77bc0a-8480-1a52-2740-55b581f40621",
+                    "type": 2,
+                    "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer",
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "legend": 1
+                }],
+                "layers": [{
+                    "label": "energy_infrastructure_of_north_america_fr",
+                    "id": "0482e936-9d1b-77cc-e4d7-663a499ad15e",
+                    "type": 4,
+                    "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/",
+                    "beforebase": false,
+                    "visiblelayers": [0],
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "usecluster": false,
+                    "cluster": {
+                        "enable": false,
+                        "distance": 50,
+                        "label": false,
+                        "symbol": false,
+                        "maxsizeprop": 50,
+                        "maxdataprop": 1000
+                    },
+                    "legend": 1
+                }, {
+                    "label": "energy_infrastructure_of_north_america_fr",
+                    "id": "4f1f5efd-7979-9fc9-5dc2-cf0676c7a398",
+                    "type": 4,
+                    "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/",
+                    "beforebase": false,
+                    "visiblelayers": [1],
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "usecluster": false,
+                    "cluster": {
+                        "enable": false,
+                        "distance": 50,
+                        "label": false,
+                        "symbol": false,
+                        "maxsizeprop": 50,
+                        "maxdataprop": 1000
+                    },
+                    "legend": 1
+                }, {
+                    "label": "energy_infrastructure_of_north_america_fr",
+                    "id": "74d96f14-bb72-127e-d721-b457a9bff21d",
+                    "type": 4,
+                    "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/",
+                    "beforebase": false,
+                    "visiblelayers": [2],
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "usecluster": false,
+                    "cluster": {
+                        "enable": false,
+                        "distance": 50,
+                        "label": false,
+                        "symbol": false,
+                        "maxsizeprop": 50,
+                        "maxdataprop": 1000
+                    },
+                    "legend": 1
+                }, {
+                    "label": "energy_infrastructure_of_north_america_fr",
+                    "id": "474f413e-5bc6-1680-a6b2-5f4e65bb03af",
+                    "type": 4,
+                    "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/",
+                    "beforebase": false,
+                    "visiblelayers": [7],
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "usecluster": false,
+                    "cluster": {
+                        "enable": false,
+                        "distance": 50,
+                        "label": false,
+                        "symbol": false,
+                        "maxsizeprop": 50,
+                        "maxdataprop": 1000
+                    },
+                    "legend": 1
+                }, {
+                    "label": "energy_infrastructure_of_north_america_fr",
+                    "id": "76aa008e-9d55-43d4-f92b-1244fdc2e427",
+                    "type": 4,
+                    "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/NorthAmerica/energy_infrastructure_of_north_america_fr/MapServer/",
+                    "beforebase": false,
+                    "visiblelayers": [20],
+                    "scale": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "usecluster": false,
+                    "cluster": {
+                        "enable": false,
+                        "distance": 50,
+                        "label": false,
+                        "symbol": false,
+                        "maxsizeprop": 50,
+                        "maxdataprop": 1000
+                    },
+                    "legend": 1
+                }]
+            }
+        },
+        "header": {
+            "side": 1,
+            "title": {
+                "value": "Infrastructure énergétique d'Amérique du Nord",
+                "alttext": "Infrastructure énergétique d'Amérique du Nord"
+            },
+            "tools": {
+                "enable": true,
+                "expand": true
+            },
+            "link": false,
+            "inset": false,
+            "about": {
+                "enable": true,
+                "type": 1,
+                "value": "Infrastructure énergétique d'Amérique du Nord liées aux raffineries, terminaux méthaniers d’import et d’export de gaz naturel liquéfié, usines de traitement du gaz naturel, centrales électriques d’une capacité minimale de 100 MW, centrales électriques à énergie renouvelable d’une capacité minimale de 1 MW. <br/>\r\nServices web implantés dans le cadre d’une coopération trilatérale en matière d’information sur l’énergie entre le département de l’Énergie des États Unis d’Amérique, le ministère des Ressources naturelles du Canada et le ministère de l’Énergie des États Unis du Mexique. <br/>\r\nLes agences et institutions participantes ne peuvent être tenues responsable de l'utilisation inappropriée ou incorrecte des données décrites et /ou contenues dans les présentes. Ces données n'ont pas de teneurs légales et ne sont pas destinées à être utilisées en tant que tels. L'information contenue dans ces données est dynamique et peut changer au fil du temps et peut différer d'autres informations officielles. Les agences et institutions participantes ne donnent aucune garantie, expresse ou implicite, quant à l'exactitude, la fiabilité, ou l'exhaustivité de ces données. <br/>\r\nLe visualisateur de cartes dynamiques permet la recherche de noms de localité, de zoomer ou panoramiquer, de mesurer des distances, d'obtenir des coordonnées et plus encore."
+            },
+            "print": {
+                "enable": true,
+                "type": 3
+            },
+            "saveimage": {
+                "enable": true
+            },
+            "saveurl": {
+                "enable": true
+            },
+            "fullscreen": true
+        },
+        "footer": {
+            "northarrow": {
+                "enable": true,
+                "inwkid": 3857
+            },
+            "mousecoords": {
+                "enable": true,
+                "outwkid": 4326
+            },
+            "scalebar": {
+                "enable": true,
+                "unit": 1
+            },
+            "datagrid": {
+                "enable": true
+            }
+        },
+        "datagrid": {
+            "enable": true,
+            "expand": true,
+            "layers": [{
+                "layerinfo": {
+                    "id": "0482e936-9d1b-77cc-e4d7-663a499ad15e",
+                    "type": 4,
+                    "index": 0
+                },
+                "title": "Usines de traitement du gaz naturel",
+                "globalsearch": false,
+                "fields": [{
+                    "enable": true,
+                    "title": "Capacité (km³/j)",
+                    "width": "100px",
+                    "data": "Capa_Km3d",
+                    "dataalias": "Capacité (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Période de référence",
+                    "width": "100px",
+                    "data": "Period",
+                    "dataalias": "Période référence",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Source",
+                    "width": "100px",
+                    "data": "Source",
+                    "dataalias": "Source",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Capacité (Mpi³/j)",
+                    "width": "100px",
+                    "data": "Capa_MMcfd",
+                    "dataalias": "Capacité (Mpi³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Adresse",
+                    "width": "100px",
+                    "data": "Address",
+                    "dataalias": "Adresse",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Code postal",
+                    "width": "100px",
+                    "data": "ZipCode",
+                    "dataalias": "Code postal",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "État / Province / Territoire",
+                    "width": "100px",
+                    "data": "StateProv",
+                    "dataalias": "État / Province / Territoire",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Comté",
+                    "width": "100px",
+                    "data": "County",
+                    "dataalias": "Comté",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Ville (Nom du site)",
+                    "width": "100px",
+                    "data": "City",
+                    "dataalias": "Ville (Nom du site)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Longitude",
+                    "width": "100px",
+                    "data": "Longitude",
+                    "dataalias": "Longitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Latitude",
+                    "width": "100px",
+                    "data": "Latitude",
+                    "dataalias": "Latitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom de l'opérateur",
+                    "width": "100px",
+                    "data": "Operator",
+                    "dataalias": "Nom de l'opérateur",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom du propriétaire (Compagnie)",
+                    "width": "100px",
+                    "data": "Owner",
+                    "dataalias": "Nom du propriétaire (Compagnie)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom de l'installation",
+                    "width": "100px",
+                    "data": "Facility",
+                    "dataalias": "Nom de l'installation",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Pays",
+                    "width": "250px",
+                    "data": "Country",
+                    "dataalias": "Pays",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 4
+                    }
+                }, {
+                    "enable": false,
+                    "title": "SHAPE",
+                    "width": "",
+                    "data": "SHAPE",
+                    "dataalias": "SHAPE",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": false,
+                    "title": "OBJECTID",
+                    "width": "",
+                    "data": "OBJECTID",
+                    "dataalias": "OBJECTID",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }],
+                "linktable": {
+                    "enable": false,
+                    "relationshipid": 0,
+                    "title": "",
+                    "subtitle": "",
+                    "fields": []
+                },
+                "popups": {
+                    "enable": true,
+                    "layeralias": "Usines de traitement du gaz naturel"
+                },
+                "hover": {
+                    "enable": false,
+                    "hoverfield": ""
+                }
+            }, {
+                "layerinfo": {
+                    "id": "4f1f5efd-7979-9fc9-5dc2-cf0676c7a398",
+                    "type": 4,
+                    "index": 1
+                },
+                "title": "Terminaux méthaniers",
+                "globalsearch": false,
+                "fields": [{
+                    "enable": true,
+                    "title": "Capacité de stockage (Mm³)",
+                    "width": "100px",
+                    "data": "Stora_Mm3",
+                    "dataalias": "Capacité de stockage (Mm³)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Capacité de regazéification (MMt/a)",
+                    "width": "100px",
+                    "data": "Cap_Mtpa",
+                    "dataalias": "Capacité de regazéification (MMt/a)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Période de référence",
+                    "width": "100px",
+                    "data": "Period",
+                    "dataalias": "Période de référence",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Source",
+                    "width": "100px",
+                    "data": "Source",
+                    "dataalias": "Source",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Capacité de stockage (Mpi³)",
+                    "width": "100px",
+                    "data": "Stora_MMcf",
+                    "dataalias": "Capacité de stockage (Mpi³)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Capacité de regazéification (Gpi³/j)",
+                    "width": "100px",
+                    "data": "Cap_Bcfd",
+                    "dataalias": "Capacité de regazéification (Gpi³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Import / Export",
+                    "width": "100px",
+                    "data": "ImpExp",
+                    "dataalias": "Import / Export",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Adresse",
+                    "width": "100px",
+                    "data": "Address",
+                    "dataalias": "Adresse",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Code postal",
+                    "width": "100px",
+                    "data": "ZipCode",
+                    "dataalias": "Code postal",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "État / Province / Territoire",
+                    "width": "100px",
+                    "data": "StateProv",
+                    "dataalias": "État / Province / Territoire",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Comté",
+                    "width": "100px",
+                    "data": "County",
+                    "dataalias": "Comté",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Ville (Nom du site)",
+                    "width": "100px",
+                    "data": "City",
+                    "dataalias": "Ville (Nom du site)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Longitude",
+                    "width": "100px",
+                    "data": "Longitude",
+                    "dataalias": "Longitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Latitude",
+                    "width": "100px",
+                    "data": "Latitude",
+                    "dataalias": "Latitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom de l'opérateur",
+                    "width": "100px",
+                    "data": "Operator",
+                    "dataalias": "Nom de l'opérateur",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom du propriétaire (Compagnie)",
+                    "width": "100px",
+                    "data": "Owner",
+                    "dataalias": "Nom du propriétaire (Compagnie)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom du terminal",
+                    "width": "100px",
+                    "data": "Facility",
+                    "dataalias": "Nom du terminal",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Pays",
+                    "width": "100px",
+                    "data": "Country",
+                    "dataalias": "Pays",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 4
+                    }
+                }, {
+                    "enable": false,
+                    "title": "SHAPE",
+                    "width": "",
+                    "data": "SHAPE",
+                    "dataalias": "SHAPE",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": false,
+                    "title": "OBJECTID",
+                    "width": "",
+                    "data": "OBJECTID",
+                    "dataalias": "OBJECTID",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }],
+                "linktable": {
+                    "enable": false,
+                    "relationshipid": 0,
+                    "title": "",
+                    "subtitle": "",
+                    "fields": []
+                },
+                "popups": {
+                    "enable": true,
+                    "layeralias": "Terminaux méthaniers"
+                },
+                "hover": {
+                    "enable": false,
+                    "hoverfield": ""
+                }
+            }, {
+                "layerinfo": {
+                    "id": "74d96f14-bb72-127e-d721-b457a9bff21d",
+                    "type": 4,
+                    "index": 2
+                },
+                "title": "Raffineries",
+                "globalsearch": false,
+                "fields": [{
+                    "enable": true,
+                    "title": "Production d'asphalte (km³/j)",
+                    "width": "100px",
+                    "data": "Asph_Km3d",
+                    "dataalias": "Production d'asphalte (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Cokéfaction (km³/j)",
+                    "width": "100px",
+                    "data": "Cokin_Km3d",
+                    "dataalias": "Cokéfaction (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Hydrodésulfuration (km³/j)",
+                    "width": "100px",
+                    "data": "HDS_Km3d",
+                    "dataalias": "Hydrodésulfuration (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Alkylation et isomérisation (km³/j)",
+                    "width": "100px",
+                    "data": "Isal_Km3d",
+                    "dataalias": "Alkylation et isomérisation (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Reformage catalytique (km³/j)",
+                    "width": "100px",
+                    "data": "CaRef_Km3d",
+                    "dataalias": "Reformage catalytique (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Viscoréduction (km³/j)",
+                    "width": "100px",
+                    "data": "VRedu_Km3d",
+                    "dataalias": "Viscoréduction (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Destruction catalytique (km³/j)",
+                    "width": "100px",
+                    "data": "CaDis_Km3d",
+                    "dataalias": "Destruction catalytique (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Distillation sous vide (km³/j)",
+                    "width": "100px",
+                    "data": "VDist_Km3d",
+                    "dataalias": "Distillation sous vide (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Distillation atmosphérique (km³/j)",
+                    "width": "100px",
+                    "data": "AD_Km3d",
+                    "dataalias": "Distillation atmosphérique (km³/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Période de référence",
+                    "width": "100px",
+                    "data": "Period",
+                    "dataalias": "Période de référence",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Source",
+                    "width": "100px",
+                    "data": "Source",
+                    "dataalias": "Source",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Production d'asphalte (kb/j)",
+                    "width": "100px",
+                    "data": "Asph_Mbpd",
+                    "dataalias": "Production d'asphalte (kb/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Cokéfaction (kb/j)",
+                    "width": "100px",
+                    "data": "Cokin_Mbpd",
+                    "dataalias": "Cokéfaction (kb/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Hydrodésulfuration (kb/j)",
+                    "width": "100px",
+                    "data": "HDS_Mbpd",
+                    "dataalias": "Hydrodésulfuration (kb/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Alkylation et isomérisation (kb/j)",
+                    "width": "100px",
+                    "data": "Isal_Mbpd",
+                    "dataalias": "Alkylation et isomérisation (kb/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Reformage catalytique (kb/j)",
+                    "width": "100px",
+                    "data": "CaRef_Mbpd",
+                    "dataalias": "Reformage catalytique (kb/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Viscoréduction (kb/j)",
+                    "width": "100px",
+                    "data": "VRedu_Mbpd",
+                    "dataalias": "Viscoréduction (kb/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Destruction catalytique (kb/j)",
+                    "width": "100px",
+                    "data": "CaDis_Mbpd",
+                    "dataalias": "Destruction catalytique (kb/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Distillation sous vide (kb/j)",
+                    "width": "100px",
+                    "data": "VDist_Mbpd",
+                    "dataalias": "Distillation sous vide (kb/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Distillation atmosphérique (kb/j)",
+                    "width": "100px",
+                    "data": "AD_Mbpd",
+                    "dataalias": "Distillation atmosphérique (kb/j)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Type",
+                    "width": "100px",
+                    "data": "Type",
+                    "dataalias": "Type",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Adresse",
+                    "width": "100px",
+                    "data": "Address",
+                    "dataalias": "Adresse",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Code postal",
+                    "width": "100px",
+                    "data": "ZipCode",
+                    "dataalias": "Code postal",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "État / Province / Territoire",
+                    "width": "100px",
+                    "data": "StateProv",
+                    "dataalias": "État / Province / Territoire",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Comté",
+                    "width": "100px",
+                    "data": "County",
+                    "dataalias": "Comté",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Ville (Nom du site)",
+                    "width": "100px",
+                    "data": "City",
+                    "dataalias": "Ville (Nom du site)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Longitude",
+                    "width": "100px",
+                    "data": "Longitude",
+                    "dataalias": "Longitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Latitude",
+                    "width": "100px",
+                    "data": "Latitude",
+                    "dataalias": "Latitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom du propriétaire (Compagnie)",
+                    "width": "100px",
+                    "data": "Owner",
+                    "dataalias": "Nom du propriétaire (Compagnie)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom de l'installation",
+                    "width": "100px",
+                    "data": "Facility",
+                    "dataalias": "Nom de l'installation",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Pays",
+                    "width": "100px",
+                    "data": "Country",
+                    "dataalias": "Pays",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 4
+                    }
+                }, {
+                    "enable": false,
+                    "title": "SHAPE",
+                    "width": "",
+                    "data": "SHAPE",
+                    "dataalias": "SHAPE",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": false,
+                    "title": "OBJECTID",
+                    "width": "",
+                    "data": "OBJECTID",
+                    "dataalias": "OBJECTID",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }],
+                "linktable": {
+                    "enable": false,
+                    "relationshipid": 0,
+                    "title": "",
+                    "subtitle": "",
+                    "fields": []
+                },
+                "popups": {
+                    "enable": true,
+                    "layeralias": "Raffineries"
+                },
+                "hover": {
+                    "enable": false,
+                    "hoverfield": ""
+                }
+            }, {
+                "layerinfo": {
+                    "id": "474f413e-5bc6-1680-a6b2-5f4e65bb03af",
+                    "type": 4,
+                    "index": 7
+                },
+                "title": "Centrales électriques, 100 MW et plus",
+                "globalsearch": false,
+                "fields": [{
+                    "enable": true,
+                    "title": "Période de référence",
+                    "width": "100px",
+                    "data": "Period",
+                    "dataalias": "Période de référence",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Source",
+                    "width": "100px",
+                    "data": "Source",
+                    "dataalias": "Source",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Biomasse (MW)",
+                    "width": "100px",
+                    "data": "Bio_MW",
+                    "dataalias": "Biomasse (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Géothermie (MW)",
+                    "width": "100px",
+                    "data": "Geo_MW",
+                    "dataalias": "Géothermie (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Éolien (MW)",
+                    "width": "100px",
+                    "data": "Wind_MW",
+                    "dataalias": "Éolien (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Solaire (MW)",
+                    "width": "100px",
+                    "data": "Solar_MW",
+                    "dataalias": "Solaire (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nucléaire (MW)",
+                    "width": "100px",
+                    "data": "Nuclear_MW",
+                    "dataalias": "Nucléaire (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Pompage-turbinage hydroélectrique (MW)",
+                    "width": "100px",
+                    "data": "HydroPS_MW",
+                    "dataalias": "Pompage-turbinage hydroélectrique (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Hydroélectrique (MW)",
+                    "width": "100px",
+                    "data": "Hydro_MW",
+                    "dataalias": "Hydroélectrique (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Autre (MW)",
+                    "width": "100px",
+                    "data": "Other_MW",
+                    "dataalias": "Autre (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Pétrole (MW)",
+                    "width": "100px",
+                    "data": "Crude_MW",
+                    "dataalias": "Pétrole (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Gaz naturel (MW)",
+                    "width": "100px",
+                    "data": "NG_MW",
+                    "dataalias": "Gaz naturel (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Charbon (MW)",
+                    "width": "100px",
+                    "data": "Coal_MW",
+                    "dataalias": "Charbon (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Source primaire d'énergie renouvelable",
+                    "width": "100px",
+                    "data": "PrimRenew",
+                    "dataalias": "Source primaire d'énergie renouvelable",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 4
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Source primaire d'énergie",
+                    "width": "100px",
+                    "data": "PrimSource",
+                    "dataalias": "Source primaire d'énergie",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 4
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Capacité totale, énergie renouvelable (MW)",
+                    "width": "100px",
+                    "data": "Renew_MW",
+                    "dataalias": "Capacité totale, énergie renouvelable (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Capacité totale (MW)",
+                    "width": "100px",
+                    "data": "Total_MW",
+                    "dataalias": "Capacité totale (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Adresse",
+                    "width": "100px",
+                    "data": "Address",
+                    "dataalias": "Adresse",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Code postal",
+                    "width": "100px",
+                    "data": "ZipCode",
+                    "dataalias": "Code postal",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "État / Province / Territoire",
+                    "width": "100px",
+                    "data": "StateProv",
+                    "dataalias": "État / Province / Territoire",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Comté",
+                    "width": "100px",
+                    "data": "County",
+                    "dataalias": "Comté",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Ville (Nom du site)",
+                    "width": "100px",
+                    "data": "City",
+                    "dataalias": "Ville (Nom du site)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Longitude",
+                    "width": "100px",
+                    "data": "Longitude",
+                    "dataalias": "Longitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Latitude",
+                    "width": "100px",
+                    "data": "Latitude",
+                    "dataalias": "Latitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom de l'opérateur",
+                    "width": "100px",
+                    "data": "Operator",
+                    "dataalias": "Nom de l'opérateur",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom du propriétaire (Compagnie)",
+                    "width": "100px",
+                    "data": "Owner",
+                    "dataalias": "Nom du propriétaire (Compagnie)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom de l'installation",
+                    "width": "100px",
+                    "data": "Facility",
+                    "dataalias": "Nom de l'installation",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Pays",
+                    "width": "100px",
+                    "data": "Country",
+                    "dataalias": "Pays",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 4
+                    }
+                }, {
+                    "enable": false,
+                    "title": "SHAPE",
+                    "width": "",
+                    "data": "SHAPE",
+                    "dataalias": "SHAPE",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": false,
+                    "title": "OBJECTID",
+                    "width": "",
+                    "data": "OBJECTID",
+                    "dataalias": "OBJECTID",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }],
+                "linktable": {
+                    "enable": false,
+                    "relationshipid": 0,
+                    "title": "",
+                    "subtitle": "",
+                    "fields": []
+                },
+                "popups": {
+                    "enable": true,
+                    "layeralias": "Centrales électriques, 100 MW et plus"
+                },
+                "hover": {
+                    "enable": false,
+                    "hoverfield": ""
+                }
+            }, {
+                "layerinfo": {
+                    "id": "76aa008e-9d55-43d4-f92b-1244fdc2e427",
+                    "type": 4,
+                    "index": 20
+                },
+                "title": "Centrales électriques à énergie renouvelable, 1 MW et plus",
+                "globalsearch": false,
+                "fields": [{
+                    "enable": true,
+                    "title": "Période de référence",
+                    "width": "100px",
+                    "data": "Period",
+                    "dataalias": "Période de référence",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Source",
+                    "width": "100px",
+                    "data": "Source",
+                    "dataalias": "Source",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Biomasse (MW)",
+                    "width": "100px",
+                    "data": "Bio_MW",
+                    "dataalias": "Biomasse (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Géothermie (MW)",
+                    "width": "100px",
+                    "data": "Geo_MW",
+                    "dataalias": "Géothermie (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Éolien (MW)",
+                    "width": "100px",
+                    "data": "Wind_MW",
+                    "dataalias": "Éolien (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Solaire (MW)",
+                    "width": "100px",
+                    "data": "Solar_MW",
+                    "dataalias": "Solaire (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nucléaire (MW)",
+                    "width": "100px",
+                    "data": "Nuclear_MW",
+                    "dataalias": "Nucléaire (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Pompage-turbinage hydroélectrique (MW)",
+                    "width": "100px",
+                    "data": "HydroPS_MW",
+                    "dataalias": "Pompage-turbinage hydroélectrique (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Hydroélectrique (MW)",
+                    "width": "100px",
+                    "data": "Hydro_MW",
+                    "dataalias": "Hydroélectrique (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": false,
+                    "title": "Autre (MW)",
+                    "width": "100px",
+                    "data": "Other_MW",
+                    "dataalias": "Autre (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Pétrole (MW)",
+                    "width": "100px",
+                    "data": "Crude_MW",
+                    "dataalias": "Pétrole (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Gaz naturel (MW)",
+                    "width": "100px",
+                    "data": "NG_MW",
+                    "dataalias": "Gaz naturel (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Charbon (MW)",
+                    "width": "100px",
+                    "data": "Coal_MW",
+                    "dataalias": "Charbon (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Source primaire d'énergie renouvelable",
+                    "width": "100px",
+                    "data": "PrimRenew",
+                    "dataalias": "Source primaire d'énergie renouvelable",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 4
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Source primaire d'énergie",
+                    "width": "100px",
+                    "data": "PrimSource",
+                    "dataalias": "Source primaire d'énergie",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 4
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Capacité totale, énergie renouvelable (MW)",
+                    "width": "100px",
+                    "data": "Renew_MW",
+                    "dataalias": "Capacité totale, énergie renouvelable (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Capacité totale (MW)",
+                    "width": "100px",
+                    "data": "Total_MW",
+                    "dataalias": "Capacité totale (MW)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Adresse",
+                    "width": "100px",
+                    "data": "Address",
+                    "dataalias": "Adresse",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Code postal",
+                    "width": "100px",
+                    "data": "ZipCode",
+                    "dataalias": "Code postal",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "État / Province / Territoire",
+                    "width": "100px",
+                    "data": "StateProv",
+                    "dataalias": "État / Province / Territoire",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Comté",
+                    "width": "100px",
+                    "data": "County",
+                    "dataalias": "Comté",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Ville (Nom du site)",
+                    "width": "100px",
+                    "data": "City",
+                    "dataalias": "Ville (Nom du site)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Longitude",
+                    "width": "100px",
+                    "data": "Longitude",
+                    "dataalias": "Longitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Latitude",
+                    "width": "100px",
+                    "data": "Latitude",
+                    "dataalias": "Latitude",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 2
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom de l'opérateur",
+                    "width": "100px",
+                    "data": "Operator",
+                    "dataalias": "Nom de l'opérateur",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom du propriétaire (Compagnie)",
+                    "width": "100px",
+                    "data": "Owner",
+                    "dataalias": "Nom du propriétaire (Compagnie)",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Nom de l'installation",
+                    "width": "100px",
+                    "data": "Facility",
+                    "dataalias": "Nom de l'installation",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": true,
+                    "title": "Pays",
+                    "width": "100px",
+                    "data": "Country",
+                    "dataalias": "Pays",
+                    "searchable": true,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 4
+                    }
+                }, {
+                    "enable": false,
+                    "title": "SHAPE",
+                    "width": "",
+                    "data": "SHAPE",
+                    "dataalias": "SHAPE",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }, {
+                    "enable": false,
+                    "title": "OBJECTID",
+                    "width": "",
+                    "data": "OBJECTID",
+                    "dataalias": "OBJECTID",
+                    "searchable": false,
+                    "description": "",
+                    "fieldtype": {
+                        "type": 1,
+                        "value": 1
+                    }
+                }],
+                "linktable": {
+                    "enable": false,
+                    "relationshipid": 0,
+                    "title": "",
+                    "subtitle": "",
+                    "fields": []
+                },
+                "popups": {
+                    "enable": true,
+                    "layeralias": "Centrales électriques à énergie renouvelable, 1 MW et plus"
+                },
+                "hover": {
+                    "enable": false,
+                    "hoverfield": ""
+                }
+            }]
+        },
+        "toolbarlegend": {
+            "enable": true,
+            "expand": true,
+            "pos": 1,
+            "basemaps": [{
+                "expand": false,
+                "last": true,
+                "type": 2,
+                "id": "cc77bc0a-8480-1a52-2740-55b581f40616",
+                "graphid": "6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f992",
+                "displayfields": false,
+                "label": {
+                    "value": "Carte de base du monde",
+                    "alttext": "Carte de base du monde"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": true,
+                    "type": 2,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": false,
+                    "symbol": "{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }, {
+                "expand": false,
+                "last": true,
+                "type": 1,
+                "id": "cc77bc0a-8480-1a52-2740-55b581f40617",
+                "graphid": "6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f993",
+                "displayfields": false,
+                "label": {
+                    "value": "Imageries du monde",
+                    "alttext": "Imageries du monde"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": false,
+                    "type": 2,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": false,
+                    "symbol": "{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }, {
+                "expand": false,
+                "last": true,
+                "type": 1,
+                "id": "cc77bc0a-8480-1a52-2740-55b581f40618",
+                "graphid": "6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f994",
+                "displayfields": false,
+                "label": {
+                    "value": "Carte terrain du monde",
+                    "alttext": "Carte terrain du monde"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": false,
+                    "type": 2,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": false,
+                    "symbol": "{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }, {
+                "expand": false,
+                "last": true,
+                "type": 1,
+                "id": "cc77bc0a-8480-1a52-2740-55b581f40619",
+                "graphid": "6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f995",
+                "displayfields": false,
+                "label": {
+                    "value": "Carte des rues du monde",
+                    "alttext": "Carte des rues du monde"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": false,
+                    "type": 2,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": false,
+                    "symbol": "{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }, {
+                "expand": false,
+                "last": true,
+                "type": 1,
+                "id": "cc77bc0a-8480-1a52-2740-55b581f40620",
+                "graphid": "6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f996",
+                "displayfields": false,
+                "label": {
+                    "value": "Carte relief ombré du monde",
+                    "alttext": "Carte relief ombré du monde"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": false,
+                    "type": 2,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": false,
+                    "symbol": "{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }, {
+                "expand": false,
+                "last": true,
+                "type": 1,
+                "id": "cc77bc0a-8480-1a52-2740-55b581f40621",
+                "graphid": "6a5dca6e-2bc3-14ec-3d0d-c6fdd5a0f997",
+                "displayfields": false,
+                "label": {
+                    "value": "Carte physique du monde",
+                    "alttext": "Carte physique du monde"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": false,
+                    "type": 2,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": false,
+                    "symbol": "{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":0.4}},\"label\":\"\",\"description\":\"\"}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }],
+            "items": [{
+                "expand": false,
+                "last": true,
+                "type": 5,
+                "id": "0482e936-9d1b-77cc-e4d7-663a499ad15e",
+                "graphid": "317385aa-f14a-85f0-f766-3ad67435cd54",
+                "displayfields": false,
+                "label": {
+                    "value": "Usines de traitement du gaz naturel",
+                    "alttext": "Usines de traitement du gaz naturel"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": true,
+                    "type": 1,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": true,
+                    "symbol": "{\"type\":\"uniqueValue\",\"field1\":\"Country\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"32d0e043fa9f4c2c5157003372b65493\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAYdJREFUOI2tz88rgwEcx/H38yNj+fG0+ZEaQ7bldy7kggtHpVx2kH/ChYNSyMXBkZPi4CAHBzVF5CBECUnEnpIxzIxmD/bMQe208Wz2uX2/fXr1/cpkMDLA5NJ6v5KfO5Yu4n8KjY+4u2ZlAFmSagsLlfJ0sefgW338MkOJwf1DgJJiS9KKYWx774Rqe+mvHUPY6bnK9O4FC42O/2G3vkcm1g4BiGgfZOeY0sMCgRBTKztosZ9ZvfGjKHmpY5F3jZmVHVTtK75bO7ikvqYSSRJTw7b3zzgIhbGb5Di4+xLmSr3FUWUzjkXeNeaOrjFJAsN97SxvHOLxBQHYO1VTwx4CL2gxGHDZsFoL6OlowrO4BcCq1487qiMmeDUhpus6AHfPr+h6jJJiCy5zFufhDyySCIJg/LIiqwKCgMcXpPXMS43Thlf7BMDd4kQUU8DM5mxGu5uZ3zwmGo1y7b2jvSiftroKGmorE0JJMYA6l51Jlz0+Ox1lSZE/sXQiAwz2dg4BQxnBMpVvEiaAPElRC+YAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Usines de traitement du gaz naturel\",\"label\":\"Usines de traitement du gaz naturel\",\"description\":\"\"}]}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }, {
+                "expand": false,
+                "last": true,
+                "type": 5,
+                "id": "4f1f5efd-7979-9fc9-5dc2-cf0676c7a398",
+                "graphid": "b0d698a4-9fec-4f17-700e-b68a2603ab37",
+                "displayfields": false,
+                "label": {
+                    "value": "Terminaux méthaniers",
+                    "alttext": "Terminaux méthaniers"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": true,
+                    "type": 1,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": true,
+                    "symbol": "{\"type\":\"uniqueValue\",\"field1\":\"Country\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"f82a907f51d5f4efd9c113ac287f3151\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAYAAACORR0GAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAsdJREFUOI2902tIU2EYB/D/2eZuTqfprMGcmReMimhZkNIUsiJaBX2LIsKEyELqSxRBRGAGUYRZ2LDAfSlciaRhYjmXSBJqC93SbekUnTbNnV3cRbedPoh61MxL2vPpff7wvD/eh3NY+E/FWulAzdeRTMUuUfO6QkX1ltjyToemvmNUeXBH7OV1gxBk1Kldk2HQkfntvY4XskRh+5pDZdrB3Dy9UwYAatckkWF2vqcoahNBEKE1gwrUFoF20PuUnl01uUWpolEVgDNrBkmFzHfFZi+HnokZBEp09tOtPY6y9C3Cxn+GyrTWk9cMTjk9uyXlISEyDOc7nZAbHVUURYkIgphcPaTUs1uGvaoxipqJ8mLYuJ4jwYVKCwDgRs+4MK3NVgng2KqhR4mRb66Y3OHT/WE+E/eOSMDjMCEVsABy6hEPv5GKz0by+L7UqLcrhp5rrQeKupyK6T6ZSUB5VIKYCDYA4FByJAoHvACAJn8ItUbHyyG3WyQWCDzLh5R6ZvuI77U5OLuy0oxYSGN5M/3eZCGyW0bQ6Jv6uu/0e/jbDJxaAFnLhoqThKqCblfUdJ/NZWB/WjRGnX4Yh73ISI0CN4yB/O1CNLbaZ+aKdA55s9F+NjM1WrUkVKqx7ik1uU7RM4WEDzaLgY9dJJQGB6oTIsDnMJEi4gGYhXSBEKoMpLLf5quWxnHt9DvmQRRhJi01ukCIoKcTwan1yOIFaGiz4yfpR+JGPkhPYME27lt9nJ1m+wcAuxeFnjQMllzq8sXNH37W70Uu6UOKOBy3pXzEi7iw2Dy4++XXAggAbnY4ZJ++jxXIt24oXgA91gykveoZv/inwb4ghSx1H3Ki2agZm0BvRS/K7Yv/n31BChV68sGPIY86ScwfmgMNOwN1Tf65K6NXd4BC94gfAP6KTFeJzc9KN5EaAGlzoMITmxOWnF5hnaOdfwNE1xkDQ5SMgAAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Terminaux méthaniers\",\"label\":\"Terminaux méthaniers\",\"description\":\"\"}]}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }, {
+                "expand": false,
+                "last": true,
+                "type": 5,
+                "id": "74d96f14-bb72-127e-d721-b457a9bff21d",
+                "graphid": "461e9087-5f59-97f4-6188-e49b32ab494a",
+                "displayfields": false,
+                "label": {
+                    "value": "Raffineries",
+                    "alttext": "Raffineries"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": true,
+                    "type": 1,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": true,
+                    "symbol": "{\"type\":\"uniqueValue\",\"field1\":\"Type\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"09e0a472eb36bb827ba86faeb280e811\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAW9JREFUOI2t0b0vA2EcwPHvPXe99lJ6XOutUcRbKAmbwcDuD7AaDIyCUfAvmEQiaQxGsUowSZi9JJKmUU10URFJtdXeXS1qcalH47s+v+eTJ79H4x/TAI4T64u559xGo8hovHdzem4roQF8lD7Gzk/PexrFhgYX4t8v88o0I8THR7CsEJquUi5VyL28cXd7TyH/6nnHE1tdW2ZyYhghxI8zx7a5uLxhbzchhz1lc1iWiaIIDMOPKhQc16VYLANV0g9P8i/r7AzT19uF+wU4roOhqkTCLQihEDKb5bFaQgiCwUC9kd+xFrOp7qVoNCKPJZMZhFAQqooRCKCpCrbjUiiUqFZdksmMPNbWbjHQ3025XOG9UMK2Hfx+H1ZrM7ru4/omJY/V0nUfuu6rNyKP/TVPzGr1/vpasVi7PLa/f8TM7BQdHRbBoIGmCmzHIZ8vks0+c3Z2JY89plMcJLyXXK//39n80s4KsNIocniyDcAndpdsT6DGotMAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Raffinerie\",\"label\":\"Raffinerie\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"fb435fb84040904b6e5332c9fe02a5d0\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAXxJREFUOI2t0z1LI1EUxvH/vTPJZOKom9GE+IoR3UILdV1sFz/Aop2VnV9ARMFCxMZGsLHZcsHKQlwQtrIRa6ONusFGNrsbISwiZkyi82KjNobxGnzac58f5xZH5x2jA2S/bcw4hcJSvUh6ZGi5f3Lquw7gOuXBvyur3fViya3NgefNaiUyOow9/oV4MoWMRvAqdziXBa729nBPcjU7NbGxnz/o+fwJIcWLmb84z/n+AcdT02rYdT5PsdVGSo2oaSI0jcDzuCuXIQj4nztX36ypo41Ub4bAD6jelgk8F2nGaEy2IqTgt/1BHXuKkIKYFQ978jpmJhKhpeauTnWseJZDCInUNQyzAaFJfM+jeusQeD7F01/qmJVOkf7Yh1u9p+KU8F0X3Yhitdjo0Qj/skfq2PPQiGAZ4V9Wxt6amljcbgktJTI96tjh2jrdE19pam/HsBqQmobvulRuSlz/yXOxta2OlXZ2Od3ZDd1OGas3OsDY3MIsMFu38nj0D/yqbOEmXtT6AAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Usine de valorisation\",\"label\":\"Usine de valorisation\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"92b4fee85e8c7f76a0d963a29d246502\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAVJJREFUOI2t0zGKwkAYhuF3komIadSIQpBVsNsFEQ/gBTyBjdVeQLCwWba01CMsHiBNajt724ilFtrHIOoQKxeWDXE27NfOfA///DCSf4wEmM/n78fj8SMr0m63PweDwZcEOJ/Pb9Pp9CUrtlgsXr8nS0qn06HX61GtVpFScrlcOBwOLJdLNptNYicR8zyPbreLEOLX2Xg8ZrVaMRwO9bDdbofjOAghKBQKmKaJUoooigDYbrf6k7muS7PZJI5joihCKUU+n6dSqSCEoFgs6mOPCCGwbTvtynOsVCqllur1uj4WBAGGYWAYxo+dnU4n4jgmCAJ9rFar0Wq1uF6vhGGIUopcLke5XMayLNbrtT72iGVZT5+sjf01iZjjOKmlRqOhj81mM/r9Pq7rYts2pmlyu90Iw5D9fo/nefqY7/v4vp86nTaWNRJgMpmMgFFW5PHp748XaPYTfWZFAAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Raffinerie d'asphalte\",\"label\":\"Raffinerie d'asphalte\",\"description\":\"\"}]}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }, {
+                "expand": false,
+                "last": true,
+                "type": 5,
+                "id": "474f413e-5bc6-1680-a6b2-5f4e65bb03af",
+                "graphid": "a24f304f-65e2-69bf-bfc3-ea97d3d16395",
+                "displayfields": false,
+                "label": {
+                    "value": "Centrales électriques, 100 MW et plus",
+                    "alttext": "Centrales électriques, 100 MW et plus"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": true,
+                    "type": 1,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": true,
+                    "symbol": "{\"type\":\"uniqueValue\",\"field1\":\"PrimSource\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"3ed8b3b668eddb2d24b30a8f823b3804\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAxxJREFUOI2t1HlIk3EYB/Dv++7du625tek2nc6ZRzM3M6NYIR4dDJMuocMDiw667ILoH6WIDrKiiOiALOgickqHQlZEdoshlRkdYE6jpW2W89hmc3u3/qjefJmDiJ6/Xn7v835+PF9eHgr/sahQL/bVbFnMI6ktLo9D52OGBTQlcocJw1t9fvf+8kUnHv8VtrN6a1qAcd5USdTRafFGUiFRguJT8Ax7ZLa+7ujmtsemfTWb3nt8vNl7i47ZQmKH6nbk9g9ab+QbVwiVMhXnEgEtgFY1DlrVOF5Ht8Vwt7Wm/Xhd2dTNCyreB2EHzOtiHAMfrxdlbhRKxdJRRx9wDaLf1Yt4dQLm0yXiWy/NjWVViKwohJeDEbSkapYuVzQa1OfsQ4vlGR62X8OGGXsAAOqIGBhijHL7YOwpYNcaFiu9uDRi4Pu36UkxyRykd7AX91/Xo6WrfsS4QvZ5cpIR5xqOlAD4g6UqDMvGjlFQBEGwjW7PEM407IbT2wO5KA4enxtubw/nMppPQynVCitvH85YO2d7468xeekysYLTaLV3wOntgV6ZA7FQhuZPtQAAPo/7AyjDouDzezIA/MQIEBRJcnPyB/zgEQJEybRoaLsEAAgXJUIkEHMbCYAiKD47Jp8StPU5ezk9EdJIaMamoqnzNns2d1IxRiQBAPjmsiNKGtvKYgRBXnjX/XLX9JQcNjbpGCkCAQZp0VkQUiIkayZCo9RyIJ/XB3t/J2MQZN9isdWmbZ1H63a0d3z5kJSgTgIAuD0u5EyYB12sHqGqpfM5xqvSH5hMJj+LAYBGoim+9+ZaU6SslBSLwkBTNLwMExKyO2xo/fjUm5ViKv59xmJLZq5vNj+qLK9uPFuRb1xOyCXhSNGmjgp97vmE+ldX/NMScgtN6QX2IAwACrLXHrzaeM5W23z5dKJST+vjJkEeFgGSJMAwDL722/HC0oSBIYcrU5e3MG9Kwb2R3wdtjUUZK88/sT4xWy1vTz56c2f+V1dXOIEAyQPFKKWxNrU87nK2Nr/MYDAEZTDqPsvUZA4BWBUysBAVcjn+S/0AVs0Iy+58jOwAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Biomasse\",\"label\":\"Biomasse\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"f328919ad254bc4afe2c7df0ef8295c4\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAApBJREFUOI2tlF9IWlEcx79HmproxdFD7MHXpt4mC1mDGFKhcUVdLCSZEQoJMqggkDHpJezNxgJFH9qLbMgVFOLiS5SwB4c+3Y1tiqwJ0YMJSQ/BFgku9zB0u/7ZYuz7dM739zufc76cwxnAf9RAv0IsFrtXr9efnZ2d3bm8vJQNDg5+HRoa4sViccDtdn++Foxl2eFKpbLv9/t11Wq1s3ybpmlnOBx+S1EU43K5vvWFJZPJuwcHB/mdnR1pvxMXi0WsrKw8WFtbO0mlUhq73X7SBUsmk/JsNpvtBVpdXUUoFBJ429vblEKheAfgFoCmAHZ+fv46FArJO0E+nw/r6+vgOA7Hx8eCWiAQGI7H41sLCwu+NiyRSNxgWfZhr1gulwtKpRLBYBAOh6OrnsvlngD4BZNKpXaO40SdjcvLy6BpGgDAMAxomkaxWBT0RCIRWTqd1tlsto8DAFCv1+/3OtXS0hIIIQAAiqKwubmJubm5rr5Go2EA8BPWbDbFnQ0ejwc6nU7gmUwm6PV68Dwv8Akh0nZMmUz2pRPm9XohEgmTy+VybGxswGazCXyJRPKpDVMqlXG9Xv+itePi4iLGxsZ6Jcf09DQmJiaQy+UAAPPz81cMw+y3YQaD4TQajZZ4ntcAQD6fh9ls7gkDgKOjo/bYarW+IYQI35lWq308Ozv7nuM4Ui6XUS6X+8Ja8ng8DbVa7WzN27DJyckPe3t7T2u12lYrwp9ksViaDofDOT4+ftoFAwCGYZ5nMpnT3d3dl5FIpOuGW/L7/RczMzOPpqam9n/3u34No9H46vDwMGUymaKlUslaKBRuVqtVkUqluhodHa1pNBrWYrH4CCHfO9f2/M9GRkYuALj/mvU6sH/VD/Se3/+WxQm4AAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Charbon\",\"label\":\"Charbon\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"8fa204fc60335e1731db076b13a338d4\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAvRJREFUOI2t1GtIU2EYB/D/uWxn29nF6WaXZYGhpZlLy6jA7gvHrBApu0BFgRHkhz5EWFRQUX0IosuX6EIRFHQhKtRgVFARqZglZrRu1sq1i2e6tcvZdnb6YM12i4geOHDe53ne3+HlPTw0/mPQ2QqtLz2lXCDazAVjFbwgsnKa9OWxdIeWpQ7UTNfb/wqz9nC694PB1p3tnqpXMTG1XF7NkFvOPxp4MFHJ1poqNeGsWNsLT9ld21DHSRcvz/Rli4JCS1AgHvcOL9lbEBlo63GXmMv1zjTManMo7vf5n2aDzpSqoWJItHQPAQAO2kPawzT5HIAhDXO4xUtHB8KqTNCeCXJsrh6Lxmv9SfndHwPjr3c4j6yaPaY5gVn7++mzT4J1maD1ORLsWmoATZJQS4i0+tMvwSYAoxjPsfXXfB4qtXE5S+FEbQFU8pEDLC1U4oSLT+o5/i3Mtr3wlJln6HppAAhEhTmpUC5B4FSNAXkqaSI3r0iD3HYOnJh8y3wsvgDACBYHZKnYSaMGk/IV4KNxSCgCJEkgVynF0RIVGvt8Sb1xUZQnjimjiHep2MIpGgDAuccOLCpWo3TCyN3ML1IDKZhUQvSNYhLqyjSaOPbrJx1HEhinlSHIC9j+xo+NrjAurFaCJAmMzWGSoDoVFWfc+nsJzGzUOY5b7bYdb78XAwAnihAEEQqGwpFCFs0fAjjFC1DJafhCsSTMUsA+MS0k4gkMAIp1zLrF9lDng7BA8CLQ89mPmYUabKjSYzAkQCmjEYnFcbHdnYDWaSSCQcus+bVOYJaK/K6bnc59X7u9B9/ERGx96MT+4Qg+eSOQkgTudLtwy+bHJW8UAFDNkOLaEs0ms1HnSMMAoL5qzKHbXS73DZvv9GVvlF7xbHC0+DWUeN2mZ/jaycoGS6X+9u/706bGypn5Z6wvvVeXBcJnX7v5ZZ1cRNMVjhNz5aQ4SyflpuYxN3VqSZNpmi6SujfjPDMZtT4ADb/nWn4+f4qsw/Ff4gc24BQhIt7gfgAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Gaz naturel\",\"label\":\"Gaz naturel\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"ed411f56f500deaba274d8fcb59d52ac\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAzFJREFUOI2tlGtIk2EUx/9z072bmnNK08BbLc1MHUhe0tIuxjIrpNVMjZbT7CJ0s9KohPpgsi5Sa90s1m2KziS7WLO8ZplhrgmJNRdl+MHECnP6Tuvtgzib04jo/+mc5zzn95xzeDgM/EcxpgrcyM+fbzIOZX/9+i3QZCLZBMH8zuFwWuxAHU3Oze34K1i5XM7rMnzSqAoUQWRf/8Swn6OHe9KFg4efsrhOwk1ZWQNTwu7JFILquvrn2goNweQ6IiV7J+bO8QebZY/vA/1obWtD2enzKDl5LioyMaFbLZf7izIzu61gpXl5Dk3a5gZthYZYsH41dmRsBZfDsSgrJFiA+NjlOHmmAI3F5dPYBOsVAHcAlAXMOEzdeKaucBDEL8O+XbtBMJmTztKNx8ORnIM40G9ElVLFKz4ukyVm78syw4pzcmwfNdStBoAtqdIpQWNydHBERkY6shtfQqfTbQMwDmPPmCH6UH/RZq5wIXy8vMazKKD+xXNotTpERoQhJFhgDs3zmwNnvieayu6zK+XyoBWZmToGAJBDI2EAEBQYbFFBR2cn8nbsBQBUXr6Gqw/K4c7jAQDoDAaCw0NRq/8IchiLAIzCKAp2AGBLt/wpQ+SghU+SpIXPYNiOGjYUYW6TYBHvAMBgeG9xOcDPD6I92/GotBSiVAm8PDzGJ0BR6HjTDgBg2ju0mWFu07m3nPiepxpL7qA3PR2uXK75ZWlyCqTJKZioD5+60NWsxewlET+FUokGaZtHYaFicU/hodx2leysf0n5bWxLlYJGo1kBxjQyMoybqiIAQPSihTU0Gs3yn/G9fTb4RM5vvau4SnNx4UK0ag3odLoVyGQyQalSobHkDgRxS0f4M32SzDMcM2LSJK8fXircf6WvV6Y8dgKtLa1YJ1oLbw9PsAgCA4OD0L83QFWkgr72BTwjBNSKlXFJoWJxjxUMAIRb0k48LlT2VNfUXG5S37V7/eDJpG3GbBQbo6OiEqIlyZrfz622xrI0yfW3VVXq8NAwhd6gj+80dDp/6emzcXVz/cn3nf15lhe/KG5xZBYtIODHxNxJ95lvbKwRgGTSsv6gKZfjv+gXfRsXbbt3B+cAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Géothermie\",\"label\":\"Géothermie\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"7edc229b137aaef1613dcdce01bc6d01\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAwRJREFUOI2tlHtI01EUx7/i1tRt2tQynRlYaL4Teqho1k9+5ppUQ8uUQKkg/cNeFKFQgZYlBEYFI2xCrRTnwmw5tR/O2GSUc/YyxWev1YzKpT1splt/pD/n1iKiA5fLPed8P/fcy72Hgf9oDGcBJdUWPmr6VDRqGos1T06y3VmscR/vhR08HqckLSXl9V/BKLXad2jolfLo+ao1z0zf7MPRSf68PRJprSpoiXc6SZLfncKaKFWkolndceHeQ3dnFWuMJheNWJZyPD3xbZNKFSYgiHcOMIqiPFq1Oq0t6FphNgZfGFCi0DhAS++088rcWF0A+A4w44fxq2dbOri2An+/xcjcJoS+ZwCNQyMAgJyYYFQ/HgYAFMtbA+rqG89sFwmLaBhFUYzKuhaR/e5jn78AVisWctm0r6xoP2Lqm3CstgUAoNU/KQQwBzNPI0PW/dzVHpZZLgHKJfN8nlwuDuTnortvGNJHA6hQdbKbKFWkgCS6GQDwdeJ7nD2oqmAHdotlDnfF5XDAYLiCTFoN6aMBAIDZPJkM4BfMMm11sxVs4PtgV5YILwxGlCg0OJ1BgM32wMFrd1AtvwW+vx/KrzfQ+RbAnT6mmxtz0BaWGr8KTCYTa2MjAIUGnlwO9uVl46XBiNyLNQ7VLmAwe+ZgHqzqCJ7HudlHWixvxYTZDJm6EwCwNjYKTCYTh/NzUaHSzwOJQgMtLFdLMw0TEISxQizpPyRVhswmlSraaUFEWCgAIJAfgL3rwnHlQQ8dEybHtZMkaaFhABASHJxDBPrqVIYPLvbH+DH1Y2aewsdP47Q/J2r5ND/Ib+fsmoYJN23U37ytPPFGfKO0b2zel8ORk+cgEiRDfb8L9X0GAECSP8+avY3MExCE0QEGABlbNp9qaLz7Xq5suyR92E/HJLpeSHS9dF5BYrQ5nUjIEqaRDbZ6h66xVZh6maK0NanrjZW9g89TdU8HvPQjJpf4pYusqyNCRleuWHbT14tdSJLkpL32t/2MJBPGAWTZ+hpnxp/MaXP8F/sJgK4X6RSBQLsAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Hydroélectrique\",\"label\":\"Hydroélectrique\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"a8101fb57370e03c929ddf05e22f70b2\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAypJREFUOI2t1FtM22UYx/Hvf/u3/fdAgMGggFy4A8phIwIF5jZQWJc5lWmmmZleLNEbL+aFVyNxXniIF2qMZonZFi+MyYxxE+eyrvoPCIU61nJYRxmDUbAbXQtI6dqVCj15YVYth2mMv6s3z5vnk/d5Lx6R/zHiWhc2eaAsOB9svRcIPxZdimpVkjKozdbadFkZ79Q1V93+V5jdci132nXHZP6s3RANxJZfb9fopVfNX8kdefqcZ6qMVb+vidnk/grHj1dtbotHDVBoyOfRXVvQZKgJ+e8x1H4D/0hAsJ7qay7Zv+lOX0dfaU1TzfQKzC7bNcOXR39xWzxqTYGaF48/y6byhxEEgd6f7IxaXVS3VKJ8QcT88c+MmSaylSrFAFC0Agv8FvrSJbszpA1KXvv0FXL1OakXJ5NJfIOz+Aa72LgthwNv7aPtuAln22hh5/c9Hzzx3K7WFCbLv4rD35qfB3jqzeY0aHlmh+Zw5DlpeL2erhO9TPRPHgX+wjTx6YNzI/Pr10kCZbWla0L342q/xfYnywGY7JzS2uT+ilpjtVMEiEaW6gGKDQWoJOU/YgCxWBxFlkg0EGNxabER+BNLxBMSgKhS0H3xMldNzrTG3S/Xc8z0RlpNVIh0nO4mGoiRSKJOjSlKinEA38gM2xpLmR2aS2tcJwhodJq0WiQcIeyJAKASxespTK1RnFFkiR+FPREkrYRqg4JFf/SBY9685gIguyQzEVp/15zCDE0G73efXxgbPOMssZ67QkvrPs4eu0AyvjoUDi0gn+oC4JHGLT1GozGRwgCKthYcHity2W9bvUJG7g0Of3KQnrO9uC2eNCg4H+SbD9u46wqxsSInnvdQ9kupf7x/qNtT02/5wfp250nru9fP38TdN0XDkR3UH6hBl6Xj1vgUE0OTdH/RSzQYR6OXktUtlUcMTQbvCgygoWXne9aLV2YHLjlOzDjmxEvvd6w6ZvGOgsWKPWWHHt9be/7v9RVbY+fTdScdsuPrmd3+095x317v8Ezmgm9B0BXrkoVl+X795vxz+szco+XG8qXlvavus0pjZRA4tOqzHpA1l+N/yR99lTHjYp51GgAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Nucléaire\",\"label\":\"Nucléaire\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"c0b267e99af6dfdda52f435adde6f3fb\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAvZJREFUOI2t1FtIU3EcB/Dv8BzdRedlonkZU+fCy3K5XErzRjIh8EWMlJ6Cgp4EH3rxpYcKeomI6CWCoKiESELpYnkJTaduam5T8+6cujmXU6ebbmfb6WF5mjojot/b//f7/z6c8/vDj8B/DOK4Qs+ILmfb4Wp0OF35lNfHI0nSEcPjaiKjuLdK5KeW/grr0evjV832D2+6hhR7lPdwOY/Pibj6tuNrlyiOVyWXy/eOxXqGR6VDulnN5LKNE5wPY7Hgo2kAgGPXzfqonajIz0g19w3ps5UFedYjmFY7zR2cnlQfhgCgWCqGNFOEJcsaWgcMAIBv88uxESQxAiDlCLa68+OZ3miJCjWLOfMaJhbNuF6tgnXDgcGpRQDAwJQx+XOv9m5lsaKRwdqNRqLvk7o6FCROEkAuEUEQw8fD1224dL6QwQBg3LhSD+A3Rlg3asz27bBgJEeYCFGiAJmiFEgl6ZhaMMGx64aHosAJJ7DrCTzO9yUrr2d4VFp65vQYAQBuD1UUDN2ou4BMUSp2nLvgctmBZGD+mDFZUJSVji/6GeY+RfnKAAQw2k+z9wuSZAEkaUK0dqnxXjOGiyVyqJQFTKN2ehHXqsoPYLQfHOY3w8mw2f3CrMWOhvtPsUf5fn0QfWCGXj+NLacTxbkZ6B2fBwCQRNgEg7FJ8hWbJO7tUV7QNI2aMgVetPeHeg8AQFOnBskCPgAgMSbS79mytTGYUiGzvHzXMd1tmDvJ50SgIFeC5m4tM+RQYV53AABkYmGvSlXqZzAAEJ5IuBwzt6zddLlZDQ+eH4sER6qA70uKja7bPzNYaUHecHuf9maLWnfb4/UxDXPLa+gbMcBssx+A+JwIuliWdUWpkFmOYACgUirudA6O2PoNM49Mtk0CAEYXVjC6sHIAkiQL3IpscW352fyW4PyRrVFRKH+s1uma7HbnE5N1vdK0Zo/ecrlZsZEcOi0xzi5MiG8m4iPry3NzPYd7Q+6zczKZA0BtqNqf4tjl+C/xE5y2LmXwJXiKAAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Pompage turbinage\",\"label\":\"Pompage turbinage\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"edc72df20819a80a05d962117ee301f8\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAutJREFUOI2tlN1LU2Ecx7/bzs7ZcXNzukw30TWnVIpgEsaMwmSlUJAZGHUTdO0fIEjQG97UVd5EBAW92rv2ZodetBoxSSXKai6d6Zz5uu1sbjs7O6eL6DSdi4h+d8/v9/w+z+/7fR4eAv8xiHSFMQezkWPnWzl2vlKIc2o5SQcprd5JaQ3Hi6rrJv4K5ulnDGHv+CPPw1ObhZhvZbmCUFuPfHpw8TltNO02b7JH08I8DqZ8pv+pkx3totNNzIfdsqmX7XX6skNTY28eb1hX0/A9BebrZzK8g30OdrSLVmauR0lTG3QFFpAZGsgVBIQEj1iYxeK4C+5bbVj8eEUvU6oGAJhSYIG5mUsBV2cmAIh8FNxSEFyYBQDI5AqIAg8uFAS/xELkwwCAhaELxpFnd9pL6va1SjAPwxDegcuNkpSIBwZrBYK+bwhMuiHE45ArSaiycqA1FUPg/ZJs/4izBcBvmKjimqKzbxXJ3mToDcjQG1I8W1qcW7YOuu+qPQ6m3GyzfyAAIBGLbEneQOVUpfMfhIoGQZvBRzxSTuCWtgP4CRNFQZXcEA98havnOjRGCyh1pnQBUdaP4IQLfHRy2QGiKNKSTDlBupOLAu9H8Y5GhGanEQsFEI9GICcIZOaaoDOZ4ettXwZTEOSwBFOS1FU5lX86+ZEqlBR0xqIUmSs9o3KqhKKo8okEK6xp8L3v7HDNOs+WpjUrTWSX2V/L7HZBggGAtqDkoH+4tD8ecsnoXBsSXAwKkkppVpAUCLUVfNgNeq0tocnJO/CrJsHMtl3v3C/uHZ1gzpyIzDjw6pgdWkstyKx8KJQkEvEYoguTYN09EIUQCLVVzKvef7iwpsGXAgMAa+3ek6N93bPTzu6OyHQv4f98Y1VpmqL62JrKhmbL1vr7yfmUX8Oybc85r4O5FgrWng9NftkZ9g7q+PC4TKktEdUFlQsaY/HtbFN2i6HMzq3sXfU/M9nsQQDNy7NDAG6uOukfYf8aPwDvxCt5dW4vnQAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Pétrole\",\"label\":\"Pétrole\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"3c1ac57337e7a8292f16afa1444776fd\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAv1JREFUOI2tlF1sy2EUh5+u7f7aplurVTpdxtDZMoxljMgWXYoLjEgMIRFkER+ZrwtL2AXChSWybC4EE5PNzUQm5iOLiZgJY2TYBZuvhRrR0an17ddc/Fk3NRHxu3pzzvs+7zm/nBwV/1Gq4RI3jpFm0FOs00jT1UqhCwQlz9dv4l6Pl/15W+j6K1hDOeZEi3R5ok1kKZUAAn8AYtUCYKo/wIanNTS+e80iZzG+YWGNZaRPncQ9k0FoBsebHoEjSz7HqlGkJZNnjOddYwWpjq10R8EaytGmJdOs16HpE6CR5LjnK1RdjsAA3B6wmjAGg7QCY6NgFgNnRpvQA1ReBHsSzJ4CL11w5gqUFoFOA/VNMMoIuTMgcTQJLZXS4az1ongA1nAY1QQby36C83Mhex04ZsJ0OxwqlCEXbkKcFipLIlWOSxDbgAhMa7Iu12lcyp8XTPFQtgs634LJAF3vwRQHmSmwOAdUygjMbEDXWEa6o4gnKgAp1p0NEA7D24/Q3gnX70NOBizdE3l46Qhcvwufe2FiIiSYISYGtLqRueCWYQrEiHAY2jqgpR3qb0PdLZgzjSEKhmD3MSjMh4XZMCMVksaAQuHVDLQZDEodMTGCDDtk2GFjPtxshV4vrF0AZ6/BzpUggtBRCxNsQz/x+UT7AMwbFDWhEKXKH16Ew1B9Va6wbBcsyQF/AAr2QvlO2LoiAvrmI+y3c3UA5tiEq7NWepZsE3aA5seg18CdU/D8DTiL4OUFeFgFpdXgfA0pSTLslUtqcq4S4SFz9uaDWD3WQotKiUI7Akq3y+aq1ZBiBZsFxlnh9D54+gL6+8HbR6j7i1gZNbTzNvPg7impJDNVHMicHGnDaoLtayLjoFbJvvoD9Le9sK5zbHK5omAAszaIg80nR35MH++u0OvknEIBy/OGGt7jQbS/shbMLXTVDY5HbY05G93HG45yzmLmhMXIfGMc8eZ4FH2C/p5e3N2fOP9JsM1Z6PL/+va3+8y5Aw9Q8LvcnzTscvwXfQfEDPoWmnan7AAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Solaire\",\"label\":\"Solaire\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"780fd90317ddd31dd593fdb9ac27c0cd\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAshJREFUOI2tlF9IU2EYxh/bOXO2tTkJh8XQGyfl3JwwCI+uwdiuuonQYldB17I7QbwIVtBNl4FEiHShgTi1mxYOEw9tOrV0kqkjRU66fZFseET257CdLmondTsR0XP5Pu/3e9/ng++j8B9FyRksy14/Pj4e4HneJgiCmqZpvra2dkmj0fi7u7u//hWMZdnLhJA3ExMT9mw2C51Oh/b2dszNzQGARavVPpiamnrX2Nh4q6OjIysLY1nWvLKysrS1tVVTqimVSvT29mJ7exuEEPA8XxUMBl02my0RDoevMQzzrQy2vLx8MRqNRk6DACCXy4GiKLS1tYEQItVXV1f11dXVHwFcLYMRQl6ur69fOh87k8lIG57X4uLilZmZmScej2dAgoVCISocDt8u6wYgCAKKxSLS6XQlGxsbG30AfsMoirqTSCQUFbsBZLNZxGKxit7m5qaaZVmzw+H4RAFALpe7IQcCgFgshpOTE1lfEISbAH7CRFFUnW/QaDSwWCyoq6tDNBqFyWRCPB6vCBNFsQb4FVOpVH4pGQ0NDejp6UFLSwtSqRTGx8exs7ODwcFBpNNpTE9PY29v7wyMpunPEkylUo2pVKqnBoMBPp8PNE1jfn4egUAAhUIBADA0NASfz4f+/n6sra1hcnISh4eHMBgMxXw+/1aCMQyTHB0djZvNZtPBwQHGxsaQTCbPTCeEwO/3w+v1wmq1orW1FSMjI6ivr3/vdruLEgwAjEajNxgMLu3u7l6Qu+hMJoPh4WEoFAqo1WpotdqC1Wq9V/IlmMPh+BAKhR7u7+8/yufzcjwAKEUXu7q67jMMI0U48zbdbvfj2dnZ7wsLC884jpP9UZqbm3N2u/2u0+l8fbpedsDlcj2PRCKvUqnUC47jPBzH6Y6Ojqr0er3Y1NSUMhqNAYqi+pxOZ9n6Fad3dnbyAO7+MWsFyUb5F/0AGTAhHceTNV8AAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Éolien\",\"label\":\"Éolien\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"16ffb21f5cf8ed02589b5c7a99e79468\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAfVJREFUOI2t1M+LUlEUB/AjCs/XGPEwFxZPeChBMSaBQSuD+7gq2EJNmGgVtJ4/YDYtKggkXEguwlUi5sLEREU46MZInCxBooUEIkpD+Atm5RN806I0Gec1jtN3d+/hfO49cLka+I/RKBUQ8cZwONwbj8e3JEnaYln2kOO4fb1e/1QUxe5aGCJe7nQ6hWAweLvf7x8v3+R5/nEsFisbjcZ7lNKJIoaI26VSab9YLLJKN+52u6pQKCQGAoEf5XL5OiHk5wqGiBcqlcrHf0HLSaVSnFar/QIAV1ewwWDwJpvNXlwHmicej19Jp9Mv/H7/3gJDRE0ikfCdBZqnXq/vAsBfbDqd3m80GupNsEKhsIWI25TSrxoAgMlkcmcTaB5Jku4CwG9MlmXtebDZbMYC/BmTYZjv58EYhvm2wHQ6XcJgMLw84ZGeGqvVKqvV6uICI4QcRCKRVjQavXZWTBTFD5RSeYEBAFgsloeCIHxqt9uqdSG73T4zmUwP5usF5nK5PmcymSfhcPjZaDQ6FeJ5/sjn8z0ihBysYAAAXq/3eT6f7+dyuVfValXxRyGESE6nc8ftdr9f3l9p8Hg8rxHxrcPhiLZaLWez2bzU6/VUgiAc2Wy2kdlsfsdx3C6ldHq898TTKaWHALCzvFer1SCZTCqOrYhtml8QArhDwbhRowAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Autre\",\"label\":\"Autre\",\"description\":\"\"}]}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }, {
+                "expand": false,
+                "last": true,
+                "type": 5,
+                "id": "76aa008e-9d55-43d4-f92b-1244fdc2e427",
+                "graphid": "5e8f2c72-f5b8-92ef-ff13-cd190fc38223",
+                "displayfields": false,
+                "label": {
+                    "value": "Centrales électriques à énergie renouvelable, 1 MW et plus",
+                    "alttext": "Centrales électriques à énergie renouvelable, 1 MW et plus"
+                },
+                "metadata": {
+                    "enable": false
+                },
+                "opacity": {
+                    "enable": false,
+                    "min": 0,
+                    "max": 1,
+                    "initstate": 1
+                },
+                "visibility": {
+                    "enable": true,
+                    "initstate": true,
+                    "type": 1,
+                    "radioid": 0
+                },
+                "displaychild": {
+                    "enable": true,
+                    "symbol": "{\"type\":\"uniqueValue\",\"field1\":\"PrimRenew\",\"field2\":null,\"field3\":null,\"fieldDelimiter\":\", \",\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"3ed8b3b668eddb2d24b30a8f823b3804\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAxxJREFUOI2t1HlIk3EYB/Dv++7du625tek2nc6ZRzM3M6NYIR4dDJMuocMDiw667ILoH6WIDrKiiOiALOgickqHQlZEdoshlRkdYE6jpW2W89hmc3u3/qjefJmDiJ6/Xn7v835+PF9eHgr/sahQL/bVbFnMI6ktLo9D52OGBTQlcocJw1t9fvf+8kUnHv8VtrN6a1qAcd5USdTRafFGUiFRguJT8Ax7ZLa+7ujmtsemfTWb3nt8vNl7i47ZQmKH6nbk9g9ab+QbVwiVMhXnEgEtgFY1DlrVOF5Ht8Vwt7Wm/Xhd2dTNCyreB2EHzOtiHAMfrxdlbhRKxdJRRx9wDaLf1Yt4dQLm0yXiWy/NjWVViKwohJeDEbSkapYuVzQa1OfsQ4vlGR62X8OGGXsAAOqIGBhijHL7YOwpYNcaFiu9uDRi4Pu36UkxyRykd7AX91/Xo6WrfsS4QvZ5cpIR5xqOlAD4g6UqDMvGjlFQBEGwjW7PEM407IbT2wO5KA4enxtubw/nMppPQynVCitvH85YO2d7468xeekysYLTaLV3wOntgV6ZA7FQhuZPtQAAPo/7AyjDouDzezIA/MQIEBRJcnPyB/zgEQJEybRoaLsEAAgXJUIkEHMbCYAiKD47Jp8StPU5ezk9EdJIaMamoqnzNns2d1IxRiQBAPjmsiNKGtvKYgRBXnjX/XLX9JQcNjbpGCkCAQZp0VkQUiIkayZCo9RyIJ/XB3t/J2MQZN9isdWmbZ1H63a0d3z5kJSgTgIAuD0u5EyYB12sHqGqpfM5xqvSH5hMJj+LAYBGoim+9+ZaU6SslBSLwkBTNLwMExKyO2xo/fjUm5ViKv59xmJLZq5vNj+qLK9uPFuRb1xOyCXhSNGmjgp97vmE+ldX/NMScgtN6QX2IAwACrLXHrzaeM5W23z5dKJST+vjJkEeFgGSJMAwDL722/HC0oSBIYcrU5e3MG9Kwb2R3wdtjUUZK88/sT4xWy1vTz56c2f+V1dXOIEAyQPFKKWxNrU87nK2Nr/MYDAEZTDqPsvUZA4BWBUysBAVcjn+S/0AVs0Iy+58jOwAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Biomasse\",\"label\":\"Biomasse\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"ed411f56f500deaba274d8fcb59d52ac\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAzFJREFUOI2tlGtIk2EUx/9z072bmnNK08BbLc1MHUhe0tIuxjIrpNVMjZbT7CJ0s9KohPpgsi5Sa90s1m2KziS7WLO8ZplhrgmJNRdl+MHECnP6Tuvtgzib04jo/+mc5zzn95xzeDgM/EcxpgrcyM+fbzIOZX/9+i3QZCLZBMH8zuFwWuxAHU3Oze34K1i5XM7rMnzSqAoUQWRf/8Swn6OHe9KFg4efsrhOwk1ZWQNTwu7JFILquvrn2goNweQ6IiV7J+bO8QebZY/vA/1obWtD2enzKDl5LioyMaFbLZf7izIzu61gpXl5Dk3a5gZthYZYsH41dmRsBZfDsSgrJFiA+NjlOHmmAI3F5dPYBOsVAHcAlAXMOEzdeKaucBDEL8O+XbtBMJmTztKNx8ORnIM40G9ElVLFKz4ukyVm78syw4pzcmwfNdStBoAtqdIpQWNydHBERkY6shtfQqfTbQMwDmPPmCH6UH/RZq5wIXy8vMazKKD+xXNotTpERoQhJFhgDs3zmwNnvieayu6zK+XyoBWZmToGAJBDI2EAEBQYbFFBR2cn8nbsBQBUXr6Gqw/K4c7jAQDoDAaCw0NRq/8IchiLAIzCKAp2AGBLt/wpQ+SghU+SpIXPYNiOGjYUYW6TYBHvAMBgeG9xOcDPD6I92/GotBSiVAm8PDzGJ0BR6HjTDgBg2ju0mWFu07m3nPiepxpL7qA3PR2uXK75ZWlyCqTJKZioD5+60NWsxewlET+FUokGaZtHYaFicU/hodx2leysf0n5bWxLlYJGo1kBxjQyMoybqiIAQPSihTU0Gs3yn/G9fTb4RM5vvau4SnNx4UK0ag3odLoVyGQyQalSobHkDgRxS0f4M32SzDMcM2LSJK8fXircf6WvV6Y8dgKtLa1YJ1oLbw9PsAgCA4OD0L83QFWkgr72BTwjBNSKlXFJoWJxjxUMAIRb0k48LlT2VNfUXG5S37V7/eDJpG3GbBQbo6OiEqIlyZrfz622xrI0yfW3VVXq8NAwhd6gj+80dDp/6emzcXVz/cn3nf15lhe/KG5xZBYtIODHxNxJ95lvbKwRgGTSsv6gKZfjv+gXfRsXbbt3B+cAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Géothermie\",\"label\":\"Géothermie\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"7edc229b137aaef1613dcdce01bc6d01\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAwRJREFUOI2tlHtI01EUx7/i1tRt2tQynRlYaL4Teqho1k9+5ppUQ8uUQKkg/cNeFKFQgZYlBEYFI2xCrRTnwmw5tR/O2GSUc/YyxWev1YzKpT1splt/pD/n1iKiA5fLPed8P/fcy72Hgf9oDGcBJdUWPmr6VDRqGos1T06y3VmscR/vhR08HqckLSXl9V/BKLXad2jolfLo+ao1z0zf7MPRSf68PRJprSpoiXc6SZLfncKaKFWkolndceHeQ3dnFWuMJheNWJZyPD3xbZNKFSYgiHcOMIqiPFq1Oq0t6FphNgZfGFCi0DhAS++088rcWF0A+A4w44fxq2dbOri2An+/xcjcJoS+ZwCNQyMAgJyYYFQ/HgYAFMtbA+rqG89sFwmLaBhFUYzKuhaR/e5jn78AVisWctm0r6xoP2Lqm3CstgUAoNU/KQQwBzNPI0PW/dzVHpZZLgHKJfN8nlwuDuTnortvGNJHA6hQdbKbKFWkgCS6GQDwdeJ7nD2oqmAHdotlDnfF5XDAYLiCTFoN6aMBAIDZPJkM4BfMMm11sxVs4PtgV5YILwxGlCg0OJ1BgM32wMFrd1AtvwW+vx/KrzfQ+RbAnT6mmxtz0BaWGr8KTCYTa2MjAIUGnlwO9uVl46XBiNyLNQ7VLmAwe+ZgHqzqCJ7HudlHWixvxYTZDJm6EwCwNjYKTCYTh/NzUaHSzwOJQgMtLFdLMw0TEISxQizpPyRVhswmlSraaUFEWCgAIJAfgL3rwnHlQQ8dEybHtZMkaaFhABASHJxDBPrqVIYPLvbH+DH1Y2aewsdP47Q/J2r5ND/Ib+fsmoYJN23U37ytPPFGfKO0b2zel8ORk+cgEiRDfb8L9X0GAECSP8+avY3MExCE0QEGABlbNp9qaLz7Xq5suyR92E/HJLpeSHS9dF5BYrQ5nUjIEqaRDbZ6h66xVZh6maK0NanrjZW9g89TdU8HvPQjJpf4pYusqyNCRleuWHbT14tdSJLkpL32t/2MJBPGAWTZ+hpnxp/MaXP8F/sJgK4X6RSBQLsAAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Hydroélectrique\",\"label\":\"Hydroélectrique\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"c0b267e99af6dfdda52f435adde6f3fb\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAvZJREFUOI2t1FtIU3EcB/Dv8BzdRedlonkZU+fCy3K5XErzRjIh8EWMlJ6Cgp4EH3rxpYcKeomI6CWCoKiESELpYnkJTaduam5T8+6cujmXU6ebbmfb6WF5mjojot/b//f7/z6c8/vDj8B/DOK4Qs+ILmfb4Wp0OF35lNfHI0nSEcPjaiKjuLdK5KeW/grr0evjV832D2+6hhR7lPdwOY/Pibj6tuNrlyiOVyWXy/eOxXqGR6VDulnN5LKNE5wPY7Hgo2kAgGPXzfqonajIz0g19w3ps5UFedYjmFY7zR2cnlQfhgCgWCqGNFOEJcsaWgcMAIBv88uxESQxAiDlCLa68+OZ3miJCjWLOfMaJhbNuF6tgnXDgcGpRQDAwJQx+XOv9m5lsaKRwdqNRqLvk7o6FCROEkAuEUEQw8fD1224dL6QwQBg3LhSD+A3Rlg3asz27bBgJEeYCFGiAJmiFEgl6ZhaMMGx64aHosAJJ7DrCTzO9yUrr2d4VFp65vQYAQBuD1UUDN2ou4BMUSp2nLvgctmBZGD+mDFZUJSVji/6GeY+RfnKAAQw2k+z9wuSZAEkaUK0dqnxXjOGiyVyqJQFTKN2ehHXqsoPYLQfHOY3w8mw2f3CrMWOhvtPsUf5fn0QfWCGXj+NLacTxbkZ6B2fBwCQRNgEg7FJ8hWbJO7tUV7QNI2aMgVetPeHeg8AQFOnBskCPgAgMSbS79mytTGYUiGzvHzXMd1tmDvJ50SgIFeC5m4tM+RQYV53AABkYmGvSlXqZzAAEJ5IuBwzt6zddLlZDQ+eH4sER6qA70uKja7bPzNYaUHecHuf9maLWnfb4/UxDXPLa+gbMcBssx+A+JwIuliWdUWpkFmOYACgUirudA6O2PoNM49Mtk0CAEYXVjC6sHIAkiQL3IpscW352fyW4PyRrVFRKH+s1uma7HbnE5N1vdK0Zo/ecrlZsZEcOi0xzi5MiG8m4iPry3NzPYd7Q+6zczKZA0BtqNqf4tjl+C/xE5y2LmXwJXiKAAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Pompage turbinage\",\"label\":\"Pompage turbinage\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"3c1ac57337e7a8292f16afa1444776fd\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAv1JREFUOI2tlF1sy2EUh5+u7f7aplurVTpdxtDZMoxljMgWXYoLjEgMIRFkER+ZrwtL2AXChSWybC4EE5PNzUQm5iOLiZgJY2TYBZuvhRrR0an17ddc/Fk3NRHxu3pzzvs+7zm/nBwV/1Gq4RI3jpFm0FOs00jT1UqhCwQlz9dv4l6Pl/15W+j6K1hDOeZEi3R5ok1kKZUAAn8AYtUCYKo/wIanNTS+e80iZzG+YWGNZaRPncQ9k0FoBsebHoEjSz7HqlGkJZNnjOddYwWpjq10R8EaytGmJdOs16HpE6CR5LjnK1RdjsAA3B6wmjAGg7QCY6NgFgNnRpvQA1ReBHsSzJ4CL11w5gqUFoFOA/VNMMoIuTMgcTQJLZXS4az1ongA1nAY1QQby36C83Mhex04ZsJ0OxwqlCEXbkKcFipLIlWOSxDbgAhMa7Iu12lcyp8XTPFQtgs634LJAF3vwRQHmSmwOAdUygjMbEDXWEa6o4gnKgAp1p0NEA7D24/Q3gnX70NOBizdE3l46Qhcvwufe2FiIiSYISYGtLqRueCWYQrEiHAY2jqgpR3qb0PdLZgzjSEKhmD3MSjMh4XZMCMVksaAQuHVDLQZDEodMTGCDDtk2GFjPtxshV4vrF0AZ6/BzpUggtBRCxNsQz/x+UT7AMwbFDWhEKXKH16Ew1B9Va6wbBcsyQF/AAr2QvlO2LoiAvrmI+y3c3UA5tiEq7NWepZsE3aA5seg18CdU/D8DTiL4OUFeFgFpdXgfA0pSTLslUtqcq4S4SFz9uaDWD3WQotKiUI7Akq3y+aq1ZBiBZsFxlnh9D54+gL6+8HbR6j7i1gZNbTzNvPg7impJDNVHMicHGnDaoLtayLjoFbJvvoD9Le9sK5zbHK5omAAszaIg80nR35MH++u0OvknEIBy/OGGt7jQbS/shbMLXTVDY5HbY05G93HG45yzmLmhMXIfGMc8eZ4FH2C/p5e3N2fOP9JsM1Z6PL/+va3+8y5Aw9Q8LvcnzTscvwXfQfEDPoWmnan7AAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Solaire\",\"label\":\"Solaire\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriPMS\",\"url\":\"780fd90317ddd31dd593fdb9ac27c0cd\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAshJREFUOI2tlF9IU2EYxh/bOXO2tTkJh8XQGyfl3JwwCI+uwdiuuonQYldB17I7QbwIVtBNl4FEiHShgTi1mxYOEw9tOrV0kqkjRU66fZFseET257CdLmondTsR0XP5Pu/3e9/ng++j8B9FyRksy14/Pj4e4HneJgiCmqZpvra2dkmj0fi7u7u//hWMZdnLhJA3ExMT9mw2C51Oh/b2dszNzQGARavVPpiamnrX2Nh4q6OjIysLY1nWvLKysrS1tVVTqimVSvT29mJ7exuEEPA8XxUMBl02my0RDoevMQzzrQy2vLx8MRqNRk6DACCXy4GiKLS1tYEQItVXV1f11dXVHwFcLYMRQl6ur69fOh87k8lIG57X4uLilZmZmScej2dAgoVCISocDt8u6wYgCAKKxSLS6XQlGxsbG30AfsMoirqTSCQUFbsBZLNZxGKxit7m5qaaZVmzw+H4RAFALpe7IQcCgFgshpOTE1lfEISbAH7CRFFUnW/QaDSwWCyoq6tDNBqFyWRCPB6vCBNFsQb4FVOpVH4pGQ0NDejp6UFLSwtSqRTGx8exs7ODwcFBpNNpTE9PY29v7wyMpunPEkylUo2pVKqnBoMBPp8PNE1jfn4egUAAhUIBADA0NASfz4f+/n6sra1hcnISh4eHMBgMxXw+/1aCMQyTHB0djZvNZtPBwQHGxsaQTCbPTCeEwO/3w+v1wmq1orW1FSMjI6ivr3/vdruLEgwAjEajNxgMLu3u7l6Qu+hMJoPh4WEoFAqo1WpotdqC1Wq9V/IlmMPh+BAKhR7u7+8/yufzcjwAKEUXu7q67jMMI0U48zbdbvfj2dnZ7wsLC884jpP9UZqbm3N2u/2u0+l8fbpedsDlcj2PRCKvUqnUC47jPBzH6Y6Ojqr0er3Y1NSUMhqNAYqi+pxOZ9n6Fad3dnbyAO7+MWsFyUb5F/0AGTAhHceTNV8AAAAASUVORK5CYII=\",\"contentType\":\"image/png\",\"width\":16,\"height\":16,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"value\":\"Éolien\",\"label\":\"Éolien\",\"description\":\"\"}]}"
+                },
+                "customimage": {
+                    "enable": false,
+                    "images": []
+                },
+                "items": []
+            }]
+        },
+        "toolbardraw": {
+            "enable": true,
+            "expand": false,
+            "pos": 2,
+            "drawline": {
+                "enable": true
+            },
+            "drawtext": {
+                "enable": true
+            },
+            "measureline": {
+                "enable": true,
+                "unit": 1
+            },
+            "measurearea": {
+                "enable": true,
+                "unit": 1
+            },
+            "importexport": {
+                "enable": true
+            }
+        },
+        "toolbarnav": {
+            "enable": true,
+            "expand": false,
+            "pos": 0,
+            "mapwkid": 102100,
+            "geolocation": {
+                "enable": true,
+                "graphic": true,
+                "info": true
+            },
+            "scaledisplay": {
+                "enable": true,
+                "format": 1
+            },
+            "overview": {
+                "enable": true,
+                "url": "",
+                "type": 2
+            },
+            "position": {
+                "enable": true
+            }
+        },
+        "toolbardata": {
+            "enable": true,
+            "expand": false,
+            "pos": 3,
+            "datafile": {
+                "enable": true
+            },
+            "dataurl": {
+                "enable": true
+            },
+            "dataquery": {
+                "enable": true
+            }
+        },
+        "toolbarextract": {
+            "enable": false,
+            "expand": false,
+            "pos": -1,
+            "grid": {
+                "enable": false,
+                "id": "0"
+            },
+            "items": []
+        },
+        "insetframe": {
+            "enable": false
+        },
+        "customwidgets": []
+    }
+}

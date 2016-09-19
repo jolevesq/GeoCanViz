@@ -34,8 +34,8 @@
 			node += '<div class="gcviz-draw-row1">';
 
 			// set color picker
-			node +=	'<div class="row">' +
-						'<div class="gcviz-draw-cholder span5">' +
+			node +=	'<div class="gcviz-row">' +
+						'<div class="gcviz-draw-cholder gcviz-span5">' +
 							'<button class="gcviz-draw-black" tabindex="0" data-bind="click: function() { selectColorClick(\'black\') }, attr: { alt: tpBlack }, css: {\'gcviz-draw-pickblack\': selectedColor() === \'black\' }"></button>' +
 							'<button class="gcviz-draw-blue" tabindex="0" data-bind="click: function() { selectColorClick(\'blue\') }, attr: { alt: tpBlue }, css: {\'gcviz-draw-pickblue\': selectedColor() === \'blue\' }"></button>' +
 							'<button class="gcviz-draw-green" tabindex="0" data-bind="click: function() { selectColorClick(\'green\') }, attr: { alt: tpGreen }, css: {\'gcviz-draw-pickgreen\': selectedColor() === \'green\' }"></button>' +
@@ -43,7 +43,7 @@
 							'<button class="gcviz-draw-yellow" tabindex="0" data-bind="click: function() { selectColorClick(\'yellow\') }, attr: { alt: tpYellow }, css: {\'gcviz-draw-pickyellow\': selectedColor() === \'yellow\' }"></button>' +
 							'<button class="gcviz-draw-white" tabindex="0" data-bind="click: function() { selectColorClick(\'white\') }, attr: { alt: tpWhite }, css: {\'gcviz-draw-pickwhite\': selectedColor() === \'white\' }"></button>' +
 						'</div>' +
-						'<div class="span7">' +
+						'<div class="gcviz-span7">' +
 							'<span class="gcviz-colorspanlabel" data-bind="text: lblColor"></span>' +
 						'</div>' +
 					'</div>';
@@ -75,9 +75,9 @@
 							'<input id="gcviz-yvalue" class="text ui-widget-content ui-corner-all gcviz-input-wcag" data-bind="value: yValue"/>' +
 							'<span class="gcviz-message-wcag" data-bind="text: lblWCAGmsgy"></span>' +
 						'</div>' +
-						'<div class="row" data-bind="visible: activeTool() !== \'text\'">' +
-							'<button id="btnAddPt' + mapid + '" class="span1 gcviz-draw-wcagadd" tabindex="0" data-bind="buttonBlur, click: addCoords"></button>' +
-							'<label class="gcviz-label span11 gcviz-draw-lbladd" for="btnAddPt' + mapid + '" data-bind="text: lblWCAGadd"></label>' +
+						'<div class="gcviz-row" data-bind="visible: activeTool() !== \'text\'">' +
+							'<button id="btnAddPt' + mapid + '" class="gcviz-span1 gcviz-draw-wcagadd" tabindex="0" data-bind="buttonBlur, click: addCoords"></button>' +
+							'<label class="gcviz-label gcviz-span11 gcviz-draw-lbladd" for="btnAddPt' + mapid + '" data-bind="text: lblWCAGadd"></label>' +
 						'</div>' +
 						'<div data-bind="visible: activeTool() !== \'text\'" style="clear: both;">' +
 							'<ul data-bind="template: { name: \'coordsWCAG\', foreach: WCAGcoords }"></ul>' +
@@ -95,13 +95,13 @@
 
 		getMeasureBtn = function(config, mapid, side) {
 			var measLabel,
-				classSpan = 'span2',
+				classSpan = 'gcviz-span2',
 				node = '',
 				measLine = config.measureline.enable,
 				measArea = config.measurearea.enable;
 
 			if (measLine && measArea) {
-				classSpan = 'span4';
+				classSpan = 'gcviz-span4';
 				measLabel = 'lblMeasFull';
 			} else if (measLine) {
 				measLabel = 'lblMeasLine';
@@ -111,7 +111,7 @@
 
 			if (measLine || measArea) {
 				// create the row
-				node += '<div class="row"><div class="' + classSpan + '">';
+				node += '<div class="gcviz-row"><div class="' + classSpan + '">';
 
 				// add buttons
 				// add measure line button
@@ -146,7 +146,7 @@
 				node += '</div>';
 
 				// add text
-				node += '<div class="span8">' +
+				node += '<div class="gcviz-span8">' +
 							'<span class="gcviz-drawspanlabel" data-bind="text: ' + measLabel + '"></span>' +
 						'</div>';
 
@@ -159,13 +159,13 @@
 
 		getDrawBtn = function(config) {
 			var drawLabel,
-				classSpan = 'span2',
+				classSpan = 'gcviz-span2',
 				node = '',
 				drawLine = config.drawline.enable,
 				drawText = config.drawtext.enable;
 
 			if (drawLine && drawText) {
-				classSpan = 'span4';
+				classSpan = 'gcviz-span4';
 				drawLabel = 'lblDrawFull';
 			} else if (drawLine) {
 				drawLabel = 'lblDrawLine';
@@ -175,7 +175,7 @@
 
 			if (drawLine || drawText) {
 				// create the row
-				node += '<div class="row"><div class="' + classSpan + '">';
+				node += '<div class="gcviz-row"><div class="' + classSpan + '">';
 
 				// add buttons
 				// add draw line button
@@ -197,7 +197,7 @@
 				node += '</div>';
 
 				// add text
-				node += '<div class="span8">' +
+				node += '<div class="gcviz-span8">' +
 							'<span class="gcviz-drawspanlabel" data-bind="text: ' + drawLabel + '"></span>' +
 						'</div>';
 
@@ -222,7 +222,7 @@
 
 		getEraseBtn = function() {
 			// create the row
-			var node = '<div class="row"><div class="span4">' +
+			var node = '<div class="gcviz-row"><div class="gcviz-span4">' +
 
 					// add erase all and erase selected buttons
 					'<button class="gcviz-draw-del" tabindex="0" data-bind="buttonBlur, click: eraseClick, attr: { alt: tpErase }, enable: isGraphics"></button>' +
@@ -233,7 +233,7 @@
 				'</div>' +
 
 				// add text
-				'<div class="span8">' +
+				'<div class="gcviz-span8">' +
 					'<span class="gcviz-drawspanlabel" data-bind="text: lblErase"></span>' +
 				'</div>' +
 
@@ -245,7 +245,7 @@
 
 		getUndoRedoBtn = function() {
 			// create the row
-			var node = '<div class="row"><div class="span4">' +
+			var node = '<div class="gcviz-row"><div class="gcviz-span4">' +
 
 					// add erase all and erase selected buttons
 					'<button class="gcviz-draw-undo" tabindex="0" data-bind="buttonBlur, click: undoClick, attr: { alt: tpUndo }, enable: stackUndo().length > 0"></button>' +
@@ -256,7 +256,7 @@
 				'</div>' +
 
 				// add text
-				'<div class="span8">' +
+				'<div class="gcviz-span8">' +
 					'<span class="gcviz-drawspanlabel" data-bind="text: lblUndoRedo"></span>' +
 				'</div>' +
 
@@ -271,7 +271,7 @@
 
 			if (config.importexport.enable) {
 				// create the row
-				node = '<div class="row"><div class="span4">' +
+				node = '<div class="gcviz-row"><div class="gcviz-span4">' +
 
 						// add import and export buttons
 						'<input id="fileDialogAnno' + mapid + '" type="file" accept="application/json" data-bind="event: { change: importClick }" tabindex="-1"></input>' +
@@ -283,7 +283,7 @@
 					'</div>' +
 
 					// add text
-					'<div class="span8">' +
+					'<div class="gcviz-span8">' +
 						'<span class="gcviz-drawspanlabel" data-bind="text: lblImpExp"></span>' +
 					'</div>' +
 

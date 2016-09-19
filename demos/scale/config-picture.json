@@ -414,7 +414,7 @@
             }
         },
         "toolbardata": {
-            "enable": true,
+            "enable": false,
             "expand": false,
             "pos": 3,
             "datafile": {

@@ -1,5 +1,7 @@
 @import "gcviz-mixin";
 
+
+// use because of vers 3.14
 %lowparams {
 	border: none;
 	padding: 0px;
@@ -20,22 +22,34 @@
 	position: relative;
 }
 
-.container {
-	@extend %lowparams;
-	overflow: hidden;
-	@extend .layersDiv
+.map {
+	.container {
+		@extend %lowparams;
+		overflow: hidden;
+		@extend .layersDiv;
+	}
 }
 
+// use because of vers 3.14
 .layersDiv {
 	position: relative;
 	left: 0;
 	top: 0;
 	width: 100%;
+	padding: 0;
 	height: 100%;
 }
 
+// override clip on esri container; it appears only on mercator maps; lambert is fine
+// they use clip to prevent duplciates of the map to be shown side by side when you are zoomed
+// far out;
+// this arbitrary clipping is annoying and it's purpose might not be obvious to users;
+div[id$="_container"].container {
+    clip: auto !important;
+}
+
 .layerTile {
-	position: absolute;
+	position: absolute; // keep, import
 	@extend %lowparams;
 }
 

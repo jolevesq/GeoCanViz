@@ -12,6 +12,10 @@
     width: 70%;
 }
 
+.gcviz-dg-search {
+    @include app-text(1.2);
+}
+
 .gcviz-dg-searchdrop {
     @extend %fields;
 }
@@ -163,6 +167,7 @@ table.dataTable.no-footer {
 .gcviz-datagrid {
     width: 100%;
     border-top: $white solid (0.2 * $rembase) + rem!important;
+    font-size: 12px!important;
 }
 
 .gcviz-datagrid-hold {
@@ -176,6 +181,7 @@ table.dataTable.no-footer {
     padding-bottom: (2 * $rembase) + rem!important;
     width: 96%;
     height: auto!important;
+    box-sizing: content-box;
 }
 
 .gcviz-datagrid-tab {
@@ -228,7 +234,6 @@ table.dataTable.no-footer {
 .gcviz-popup {
     overflow: hidden!important;
     width: 97%!important;
-    min-height: 240px!important;
 }
 
 .ui-resizable {
@@ -292,9 +297,10 @@ table.dataTable.no-footer {
  *  Overwite the jQuery datatable plugin
  */
 .dataTables_processing {
-    top: 3.5%!important;
+    top: 5%!important;
     height: 20px!important;
     border: none!important;
+    padding-top: 0px!important;
 }
 
 // set datatable min width so if you have one element you are able to see link info
@@ -304,4 +310,18 @@ table.dataTable.no-footer {
     .gcviz-datatable {
         min-height: 350px!important;
     }
+}
+
+.dataTables_wrapper .dataTables_info:after {
+    content: none!important;
+}
+
+// align header
+.gcviz-datatable thead,
+.gcviz-datatable th {text-align: center;}
+
+// add border left/right on column
+.gcviz-datatable td, .gcviz-datatable th {
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
 }

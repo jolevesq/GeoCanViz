@@ -24,10 +24,10 @@
 			$footer = $mapElem.find('.gcviz-foot');
 
 			// create row to hold all componants
-			node = '<div class="row">';
+			node = '<div class="gcviz-row">';
 
 			// logo and link to GitHub
-			node += '<div class="span5">';
+			node += '<div class="gcviz-span5">';
 
 			if (config.logo) {
 				node += '<div><a target="_blank" data-bind="attr: { href: urlLogo }" tabindex="-1">' +
@@ -43,7 +43,7 @@
 			node += '</div>';
 
 			// set north arrow
-			node += '<div class="span1">';
+			node += '<div class="gcviz-span1">';
 			if (config.northarrow.enable) {
 				node += '<div id="arrow' + mapid + '" class="gcviz-foot-arrow unselectable" data-bind="style: { \'webkitTransform\': rotateArrow(), ' +
 																												'\'MozTransform\': rotateArrow(), ' +
@@ -55,7 +55,7 @@
 			node += '</div>';
 
 			// set mouse coordinates
-			node += '<div class="span4">';
+			node += '<div class="gcviz-span4">';
 			if (config.mousecoords.enable && window.browser !== 'Mobile') {
 				node += '<div class="gcviz-foot-coords-label unselectable" data-bind="text: coordsLabel"></div>' +
 						'<table><tr>' +
@@ -68,7 +68,7 @@
 			node += '</div>';
 
 			// set scalebar
-			node += '<div class="span2">';
+			node += '<div class="gcviz-span2">';
 			if (configScalebar) {
 				node += '<div id="scalebar' + mapid + '" class="unselectable"></div>';
 			}

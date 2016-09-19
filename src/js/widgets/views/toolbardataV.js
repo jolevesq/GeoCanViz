@@ -28,18 +28,18 @@
 			if (datafile.enable) {
 				// CSV file
 				node += '<input id="fileDialogData' + mapid + '" type="file" accept=".csv" data-bind="event: { change: addFileClick }" tabindex="-1"></input>' +
-						'<div class="row">' +
-							'<div class="span1"><button id="btnAddCSV' + mapid + '" class="gcviz-data-add" tabindex="0" data-bind="buttonBlur, click: launchDialog, attr: { alt: tpAdd }"></button></div>' +
-							'<div class="span11"><label class="gcviz-label gcviz-nav-lblpos" for="btnAddCSV' + mapid + '" data-bind="text: lblCSV"></label></div>' +
+						'<div class="gcviz-row">' +
+							'<div class="gcviz-span1"><button id="btnAddCSV' + mapid + '" class="gcviz-data-add" tabindex="0" data-bind="buttonBlur, click: launchDialog, attr: { alt: tpAdd }"></button></div>' +
+							'<div class="gcviz-span11"><label class="gcviz-label gcviz-nav-lblpos" for="btnAddCSV' + mapid + '" data-bind="text: lblCSV"></label></div>' +
 						'</div>';
 			}
 
 			// set add data from file button
 			if (dataurl.enable) {
 				// File from URL
-				node += '<div class="row">' +
-							'<div class="span1"><button id="btnAddUrl' + mapid + '" class="gcviz-data-add" tabindex="0" data-bind="buttonBlur, click: addURLClick, attr: { alt: tpAdd }"></button></div>' +
-							'<div class="span11"><label class="gcviz-label gcviz-nav-lblpos" for="btnAddUrl' + mapid + '" data-bind="text: lblUrl"></label></div>' +
+				node += '<div class="gcviz-row">' +
+							'<div class="gcviz-span1"><button id="btnAddUrl' + mapid + '" class="gcviz-data-add" tabindex="0" data-bind="buttonBlur, click: addURLClick, attr: { alt: tpAdd }"></button></div>' +
+							'<div class="gcviz-span11"><label class="gcviz-label gcviz-nav-lblpos" for="btnAddUrl' + mapid + '" data-bind="text: lblUrl"></label></div>' +
 						'</div>' +
 						'<div data-bind="uiDialog: { title: lblUrlTitle, width: 700, ok: dialogUrlOk, cancel: dialogUrlCancel, close: dialogUrlClose, openDialog: \'isUrlDialogOpen\' }">' +
 							'<div>' +
@@ -76,9 +76,9 @@
 			node += '<div data-bind="uiDialog: { title: lblAddTitle, width: 500, ok: okParamUrlFile, close: closeParamUrlFile, openDialog: \'isFileProcess\', ' +
 												'position: { within: \'#' + mapid + '_holder\', at: \'center center\' } }">' +
 						'<span data-bind="text: lblAddParamDesc"></span>' +
-						'<div class="row">' +
-							'<div class="span1"><button id="btnWindowAddCSV' + mapid + '" class="gcviz-data-add" tabindex="0" data-bind="buttonBlur, click: launchDialog, attr: { alt: tpAdd }"></button></div>' +
-							'<div class="span11"><label class="gcviz-label gcviz-nav-lblpos" for="btnWindowAddCSV' + mapid + '" data-bind="text: lblImportParamFile"></label></div>' +
+						'<div class="gcviz-row">' +
+							'<div class="gcviz-span1"><button id="btnWindowAddCSV' + mapid + '" class="gcviz-data-add" tabindex="0" data-bind="buttonBlur, click: launchDialog, attr: { alt: tpAdd }"></button></div>' +
+							'<div class="gcviz-span11"><label class="gcviz-label gcviz-nav-lblpos" for="btnWindowAddCSV' + mapid + '" data-bind="text: lblImportParamFile"></label></div>' +
 						'</div>' +
 					'</div>';
 

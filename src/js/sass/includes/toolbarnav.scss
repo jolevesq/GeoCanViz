@@ -2,7 +2,7 @@
 
 %ovmap {
     opacity: 1.0!important;
-    width: 230px!important;
+    width: 233px!important; // larger then overview widget to avoid loss of right border
     background: $yellow-light;
 }
 
@@ -36,6 +36,7 @@
     width: 93%;
     margin-top: 0!important;
     margin-bottom: 0!important;
+    @include app-text(1.2);
 }
 
 // map localisation buttons
@@ -44,7 +45,7 @@
 }
 
 .gcviz-nav-cursor-pos {
-    cursor: url("#{ $img-root }navCursor.cur"), crosshair;
+    cursor: url(#{ $img-root }navCursor.cur), crosshair;
 }
 
 .gcviz-nav-lblpos {
@@ -143,4 +144,8 @@
     @include app-border(0.1, solid, #000000);
     @include content-border-radius(0.6);
     width: 93%;
+
+    p {
+        margin: (1 * $rembase) + rem!important;
+    }
 }

@@ -118,7 +118,10 @@ var locationPath;
                 size = mapframe.size,
                 width = size.width,
                 cfgPrint = config.header.print,
-                maxWidth = parseInt($mapElem.parent().css('width'), 10) - (2 * $mapElem.position().left); // get container width;
+                maxWidth = parseInt($mapElem.parent().width(), 10);
+
+            // creates problem in WET4
+            // maxWidth = parseInt($mapElem.parent().width(), 10) - (2 * $mapElem.position().left); // get container width;
 
             // check if the container width is smaller then gcviz. If so, set width to container width
             // if user resize his window to a larger size later, the map will grow to the width

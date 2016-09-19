@@ -37,22 +37,22 @@
 
 			// set position information
 			if (configPosition) {
-				node += '<div class="row gcviz-nav-info">' +
+				node += '<div class="gcviz-row gcviz-nav-info">' +
 							'<span class="gcviz-subtitle" data-bind="text: mapInfoGrp"></span>' +
-							'<div class="row">' +
-								'<div class="span1"><button id="btnClickMap' + mapid + '" class="gcviz-nav-pos" tabindex="0" data-bind="buttonBlur, click: getMapClick, attr: { alt: tpGetLocInfo }"></button></div>' +
-								'<div class="span11"><label class="gcviz-label gcviz-nav-lblpos" for="btnClickMap' + mapid + '" data-bind="text: infoLabel"></label></div>' +
+							'<div class="gcviz-row">' +
+								'<div class="gcviz-span1"><button id="btnClickMap' + mapid + '" class="gcviz-nav-pos" tabindex="0" data-bind="buttonBlur, click: getMapClick, attr: { alt: tpGetLocInfo }"></button></div>' +
+								'<div class="gcviz-span11"><label class="gcviz-label gcviz-nav-lblpos" for="btnClickMap' + mapid + '" data-bind="text: infoLabel"></label></div>' +
 							'</div>' +
 						'</div>';
 			}
 
 			// set overview map and scale
 			if (configOverview || configScaleDisplay) {
-				node += '<div class="row gcviz-nav-overview">' +
+				node += '<div class="gcviz-row gcviz-nav-overview">' +
 							'<span class="gcviz-subtitle" data-bind="text: OVLabel"></span>' +
-							'<div class="row">' +
-								'<div class="span1"></div>' +
-								'<div class="span10">';
+							'<div class="gcviz-row">' +
+								'<div class="gcviz-span1"></div>' +
+								'<div class="gcviz-span10">';
 
 							// set overview map
 							if (configOverview) {
@@ -65,7 +65,7 @@
 
 							// set scale display
 							if (configScaleDisplay) {
-								node += '<div class="row gcviz-nav-scale">' +
+								node += '<div class="gcviz-row gcviz-nav-scale">' +
 											'<div id="scaletool' + mapid + '"><span class="gcviz-scaleDisplayLabel" data-bind="text: lblScale"></div>' +
 										'</div>';
 							}

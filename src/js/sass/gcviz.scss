@@ -11,293 +11,300 @@
 // this is use to override img in theme-min.css (character 135450) because it introduces
 // a shift in dynamic web service image
 div.gcviz-container img {
-	margin-left: 0px!important;
+    margin-left: 0px!important;
 }
 
 // responsive grid (http://viget.com/inspire/building-a-nested-responsive-grid-with-sass-compass)
-.row {
-	#{enumerate(".span", 1, $cols, "")} {
-		float: left;
-		margin-left: $gutter;
-	}
+.gcviz-row {
+    #{enumerate(".gcviz-span", 1, $cols, "")} {
+        float: left;
+        margin-left: $gutter;
+    }
 
-	@for $i from 1 through $cols {
-		.span#{$i} {
-			@include cols($i);
-			min-height: 1px; // need this so empty span are taken in consideration
+    @for $i from 1 through $cols {
+        .gcviz-span#{$i} {
+            @include cols($i);
+            min-height: 1px; // need this so empty span are taken in consideration
 
-			@for $j from 1 through ($i - 1) {
-				.span#{$j} {
-					@include sub_cols($j, $i);
-				}
-			}
-		}
-	}
+            @for $j from 1 through ($i - 1) {
+                .gcviz-span#{$j} {
+                    @include sub_cols($j, $i);
+                }
+            }
+        }
+    }
 
-	> :first-child,
-	.row > :first-child {
-		margin-left: 0;
-	}
+    > :first-child,
+    .gcviz-row > :first-child {
+        margin-left: 0;
+    }
+
+    margin-right: 0px!important;
+    margin-left: 0px!important;
 }
 
-.row:after {
-	clear: both;
-	content: ".";
-	display: block;
-	height: 0;
-	visibility: hidden;
+.gcviz-row:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
 }
 
 // set text unselectable (solve problem that select graphic text when drawing)
 text, .unselectable {
-	@include unselectable;
+    @include unselectable;
 }
 
 .gcviz-section {
-	background: #FFF;
-	display: inline-block;
+    background: #FFF;
+    display: inline-block;
 }
 
 .gcviz {
-	position: relative;
-	@include app-border(0.1, solid, #c1c5be);
+    position: relative;
+    @include app-border(0.1, solid, #c1c5be);
 }
 
 .gcviz-disable {
-	opacity: 0.5;
-	pointer-events: none;
+    opacity: 0.5;
+    pointer-events: none;
 }
 
 .gcviz-mapholder {
-	background: #FFF;
+    background: #FFF;
 }
 
 .gcviz-image-button {
-	background: #666666!important;
-	border: 2px solid #666666!important;
-	border-radius: 6px!important;
-	-webkit-border-radius: 6px!important;
-	-moz-border-radius: 6px!important;
-	padding: 0px 5px!important;
-	float: left!important;
-	width: auto!important;
-	height:30px!important;
-	@include app-text(1.1, normal, $white);
-	display:block!important;
-	cursor: pointer;
+    background: #666666!important;
+    border: 2px solid #666666!important;
+    border-radius: 6px!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    padding: 0px 5px!important;
+    float: left!important;
+    width: auto!important;
+    height:30px!important;
+    @include app-text(1.1, normal, $white);
+    display:block!important;
+    cursor: pointer;
 
-	&:hover {
-		border: 2px solid #ff6600!important;
-		background: #000000!important;
-	}
+    &:hover {
+        border: 2px solid #ff6600!important;
+        background: #000000!important;
+    }
 }
 
 .gcviz-button-icon {
-	padding-left: 0px!important;
-	width:30px!important;
-	height:30px!important;
+    padding-left: 0px!important;
+    width:30px!important;
+    height:30px!important;
 }
 
 .gcviz-button-text {
-	padding-left: 10px!important;
-	position: relative;
-	top: -8px;
+    padding-left: 10px!important;
+    position: relative;
+    top: -8px;
 }
 
 .gcviz-tooltip {
-	.ui-tooltip-content {
-		@include app-text(1.2, normal, $black);
-	}
+    .ui-tooltip-content {
+        @include app-text(1.2, normal, $black);
+    }
 }
 
 // remove tooltip on mobile device
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 480px) and (orientation: portrait){
   .gcviz-tooltip {
-		display: none!important;
-	}
+        display: none!important;
+    }
 }
 
 /* #### Mobile Phones Landscape #### */
 @media screen and (max-device-width: 640px) and (orientation: landscape){
   .gcviz-tooltip {
-		display: none!important;
-	}
+        display: none!important;
+    }
 }
 
 /* #### Mobile Phones Portrait or Landscape #### */
 @media screen and (max-device-width: 640px){
   .gcviz-tooltip {
-		display: none!important;
-	}
+        display: none!important;
+    }
 }
 
 /* #### iPhone 4+ Portrait or Landscape #### */
 @media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
   .gcviz-tooltip {
-		display: none!important;
-	}
+        display: none!important;
+    }
 }
 
 /* #### Tablets Portrait or Landscape #### */
 @media screen and (min-device-width: 768px) and (max-device-width: 1280px){
  .gcviz-tooltip {
-		display: none!important;
-	}
+        display: none!important;
+    }
 }
 
 .gcviz-message-wcag {
-	@include app-text(1.1, normal, black);
-	display: inline-block;
-	margin-left: (1 * $rembase) + rem;
+    @include app-text(1.1, normal, black);
+    display: inline-block;
+    margin-left: (1 * $rembase) + rem;
 }
 
 .gcviz-input-wcag {
-	width: (5.5 * $rembase) + rem!important;
-	margin-left: 0rem!important;
+    width: (5.5 * $rembase) + rem!important;
+    margin-left: 0rem!important;
 }
 
 .gcviz-label-wcag {
-	display: inline-block;
-	margin-left: (1 * $rembase) + rem;
-	margin-right: (0.5 * $rembase) + rem;
-	margin-top: (1 * $rembase) + rem!important;
+    display: inline-block;
+    margin-left: (1 * $rembase) + rem;
+    margin-right: (0.5 * $rembase) + rem;
+    margin-top: (1 * $rembase) + rem!important;
 }
 
 .gcviz-label {
-	@include app-text();
-	display: inline-block;
-	margin-right: (1 * $rembase) + rem;
-	vertical-align: sub;
+    @include app-text();
+    display: inline-block;
+    margin-right: (1 * $rembase) + rem;
+    vertical-align: sub;
 }
 
 .gcviz-subtitle {
-	@include app-text(1.1, bold);
+    @include app-text(1.1, bold);
 }
 
 .gcviz-hidden {
-	display: none!important;
+    display: none!important;
 }
 
 .gcviz-bold {
-	font-weight: bold!important;
+    font-weight: bold!important;
 }
 
 /* hide the input type */
 input[type="file"] {
-	opacity: 0;
-	position: absolute;
-	top:	-1000rem;
-	left: -1000rem;
-	margin: 0 !important;
-	height: 0rem;
-	width: 0rem;
-	padding: 0rem;
-	border-width: 0rem;
-	min-width: 0rem;
-	min-height: 0rem;
+    opacity: 0;
+    position: absolute;
+    top:	-1000rem;
+    left: -1000rem;
+    margin: 0 !important;
+    height: 0rem;
+    width: 0rem;
+    padding: 0rem;
+    border-width: 0rem;
+    min-width: 0rem;
+    min-height: 0rem;
 }
 
 .gcviz-float-left {
-	float: left;
+    float: left;
 }
 
 .gcviz-float-right {
-	float: right;
+    float: right;
 }
 
 .gcviz-inline {
-	display: inline!important;
+    display: inline!important;
 }
 
 .gcviz-inlineblock {
-	display: inline-block!important;
+    display: inline-block!important;
 }
 
 %loading {
-	position: absolute;
-	bottom: (4 * $rembase) + rem;
-	width: (15 * $rembase) + rem;
-	height: (2 * $rembase) + rem!important;
-	z-index: 1;
+    position: absolute;
+    bottom: (4 * $rembase) + rem;
+    width: (15 * $rembase) + rem;
+    height: (2 * $rembase) + rem!important;
+    z-index: 1;
 }
 
 .gcviz-loading-l {
-	@extend %loading;
-	left: 0;
+    @extend %loading;
+    left: 0;
 }
 
 .gcviz-loading-r {
-	@extend %loading;
-	right: 0;
+    @extend %loading;
+    right: 0;
 }
 
 .gcviz-loadingLabel {
-	position: absolute;
-	left: (1 * $rembase) + rem;
-	@include app-text(1.2, normal, $white);
+    position: absolute;
+    left: (1 * $rembase) + rem;
+    @include app-text(1.2, normal, $white);
 }
 
 .gcviz-appText {
-	@include app-text;
+    @include app-text;
 }
 
 .gcviz-verticalAlignTop {
-	vertical-align: top;
+    vertical-align: top;
 }
 
 .gcviz-verticalAlignMiddle {
-	vertical-align: middle;
+    vertical-align: middle;
+}
+
+.gcviz-verticalAlignInitial {
+    vertical-align: initial!important;
 }
 
 // OVERWRITE
 // keyboard user instruction (overwrite WET)
 h3:not(.ui-title) {
-	color: #000!important;
+    color: #000!important;
 }
 
 // overwrite jquery ui-tooltip
 .ui-tooltip {
-	padding: (0.3 * $rembase) + rem!important;
+    padding: (0.3 * $rembase) + rem!important;
 }
 
 // overwrite jqueryui autocomplete to be on top when in fullscreen
 .ui-autocomplete {
-	z-index: 15005!important;
+    z-index: 15005!important;
 }
 
 // make sure ui dialog is on top of magnific popup for full screen
 // set 100% for IE
 .ui-dialog {
-	z-index: 15000!important;
+    z-index: 15000!important;
 }
 
 // set 100% for IE only
 .Explorer .ui-dialog-content {
-	width: 96%!important;
+    width: 96%!important;
 }
 
 // overwrite zoom slider to set a focus state
 .dijitSliderFocused .dijitSliderBar {
-	border-color: #759dc0!important;
-	border-width: 2px!important;
+    border-color: #759dc0!important;
+    border-width: 2px!important;
 }
 
 // overwite input because wet style introduce a shift in Firefox
 // there is also a problem with IE
 input[type="checkbox"], input[type="radio"]{
-	background: transparent;
-	border: 0;
-	vertical-align:	middle;
-	padding-left: (0.5 * $rembase) + rem;
-	padding-right: (0.5 * $rembase) + rem;
+    background: transparent;
+    border: 0;
+    vertical-align:	bottom;
+    padding-left: (0.5 * $rembase) + rem;
+    padding-right: (0.5 * $rembase) + rem;
 }
 
 // solve problem with a black bar when you drag jQueryUI dialog window
 .ui-draggable {
-	margin-top: 0!important;
+    margin-top: 0!important;
 }
 
 label {
-	margin-bottom: 0!important;
+    margin-bottom: 0!important;
 }
