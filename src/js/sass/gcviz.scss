@@ -308,3 +308,30 @@ input[type="checkbox"], input[type="radio"]{
 label {
     margin-bottom: 0!important;
 }
+
+// WET4
+// overwrite ui-dialog-title
+.ui-dialog-title {
+    line-height: 1em!important;
+}
+
+.ui-dialog input {
+    margin: 2px!important;
+}
+
+.ui-dialog .form-checkbox {
+    font-weight: 500!important;
+    padding-left: 10px!important;
+}
+
+.gcviz-wcag-bubble {
+    padding-left: 10px!important;
+}
+
+.gcviz-datatable th {
+    vertical-align: top!important;
+}
+
+.ui-autocomplete .ui-menu-item {
+    font-size: (1.2 * $rembase) + rem;
+}

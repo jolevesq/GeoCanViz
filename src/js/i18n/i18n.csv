@@ -19,7 +19,7 @@ Global sys value#%gisurlmd#http://geomag.nrcan.gc.ca/service/tools/magnetic/calc
 #%west#W#O
 #%lat#Latitude: #Latitude :
 #%long#Longitude: #Longitude :
-#%position#Position: #Position :
+#%position#Position: #Position : 
 #%alt-radio#Radio button#Bouton radio
 #%alt-chk#Checbox#Case à cocher
 #%alt-slider#Transparency slider#Curseur de transparence
